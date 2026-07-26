@@ -233,14 +233,111 @@ class ExamPDF(FPDF):
 _SUPERSCRIPTS = str.maketrans("⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻", "0123456789+-")
 _SUBSCRIPTS = str.maketrans("₀₁₂₃₄₅₆₇₈₉₊₋", "0123456789+-")
 
-# 常见 LaTeX 命令 → 普通字符（去掉 $ 定界符后可能残留）
-_LATEX_REPLACEMENTS = [
-    (r'\{', '{'), (r'\}', '}'), (r'\%', '%'), (r'\_', '_'), (r'\&', '&'),
-    (r'\times', '×'), (r'\cdot', '·'), (r'\div', '÷'), (r'\pm', '±'),
-    (r'\le', '≤'), (r'\leq', '≤'), (r'\ge', '≥'), (r'\geq', '≥'),
-    (r'\neq', '≠'), (r'\approx', '≈'), (r'\infty', '∞'),
-    (r'\rightarrow', '→'), (r'\to', '→'), (r'\leftarrow', '←'),
+# ── LaTeX → 可读 Unicode 文本 ──
+
+_GREEK = {
+    "alpha": "α", "beta": "β", "gamma": "γ", "delta": "δ", "epsilon": "ε",
+    "varepsilon": "ε", "zeta": "ζ", "eta": "η", "theta": "θ", "lambda": "λ",
+    "mu": "μ", "nu": "ν", "xi": "ξ", "pi": "π", "rho": "ρ", "sigma": "σ",
+    "tau": "τ", "phi": "φ", "varphi": "φ", "chi": "χ", "psi": "ψ", "omega": "ω",
+    "Gamma": "Γ", "Delta": "Δ", "Theta": "Θ", "Lambda": "Λ", "Xi": "Ξ",
+    "Pi": "Π", "Sigma": "Σ", "Phi": "Φ", "Psi": "Ψ", "Omega": "Ω",
+}
+
+# 顺序敏感：长命令在前，避免 \le 吃掉 \leq
+_MATH_SYMBOLS = [
+    (r'\leqslant', '≤'), (r'\geqslant', '≥'), (r'\leq', '≤'), (r'\geq', '≥'),
+    (r'\le', '≤'), (r'\ge', '≥'), (r'\neq', '≠'), (r'\ne', '≠'),
+    (r'\approx', '≈'), (r'\equiv', '≡'), (r'\sim', '~'),
+    (r'\times', '×'), (r'\cdot', '·'), (r'\div', '÷'), (r'\pm', '±'), (r'\mp', '∓'),
+    (r'\infty', '∞'), (r'\propto', '∝'),
+    (r'\notin', '∉'), (r'\in', '∈'), (r'\subseteq', '⊆'), (r'\subset', '⊂'),
+    (r'\supseteq', '⊇'), (r'\supset', '⊃'), (r'\cup', '∪'), (r'\cap', '∩'),
+    (r'\emptyset', '∅'), (r'\varnothing', '∅'), (r'\forall', '∀'), (r'\exists', '∃'),
+    (r'\Rightarrow', '⇒'), (r'\Leftarrow', '⇐'), (r'\Leftrightarrow', '⇔'),
+    (r'\leftrightarrow', '↔'), (r'\rightarrow', '→'), (r'\leftarrow', '←'),
+    (r'\longrightarrow', '→'), (r'\mapsto', '→'), (r'\to', '→'), (r'\gets', '←'),
+    (r'\langle', '〈'), (r'\rangle', '〉'),
+    (r'\lfloor', '⌊'), (r'\rfloor', '⌋'), (r'\lceil', '⌈'), (r'\rceil', '⌉'),
+    (r'\sum', 'Σ'), (r'\prod', 'Π'),
+    (r'\ldots', '…'), (r'\cdots', '…'), (r'\dots', '…'), (r'\vdots', '⋮'),
+    (r'\wedge', '∧'), (r'\vee', '∨'), (r'\neg', '¬'), (r'\oplus', '⊕'),
+    (r'\bmod', ' mod '), (r'\pmod', ' mod '), (r'\mid', '|'), (r'\|', '‖'),
+    (r'\%', '%'), (r'\&', '&'), (r'\#', '#'), (r'\_', '_'),
+    (r'\quad', ' '), (r'\qquad', '  '), (r'\,', ' '), (r'\;', ' '), (r'\!', ''),
+    ('\\ ', ' '),
 ]
+
+
+def _greek_word(word: str) -> str:
+    """希腊字母命令还原；处理 \\mu\\text{s} 剥壳后粘连成 mus 的情况"""
+    if word in _GREEK:
+        return _GREEK[word]
+    for name in sorted(_GREEK, key=len, reverse=True):
+        if word.startswith(name):
+            return _GREEK[name] + word[len(name):]
+    return word
+
+_SIMPLE_TOKEN = re.compile(r'[0-9A-Za-zα-ωΑ-Ω+\-|=.…]+')
+
+
+def _wrap(s: str) -> str:
+    """复合表达式加括号，简单表达式原样"""
+    s = s.strip()
+    return s if _SIMPLE_TOKEN.fullmatch(s) else f'({s})'
+
+
+def _convert_math(s: str) -> str:
+    """把一段 LaTeX 数学内容转成可读的 Unicode 文本"""
+    # 字面大括号先保护
+    s = s.replace(r'\{', '\x01').replace(r'\}', '\x02')
+
+    # 矩阵环境 → [行1; 行2; ...]
+    def matrix_repl(m):
+        rows = [' '.join(c.strip() for c in row.split('&'))
+                for row in re.split(r'\\\\', m.group(1)) if row.strip()]
+        return '[' + '; '.join(rows) + ']'
+    s = re.sub(r'\\begin\{[bpvB]?matrix\}(.*?)\\end\{[bpvB]?matrix\}',
+               matrix_repl, s, flags=re.DOTALL)
+
+    # 文本类宏剥壳（处理嵌套，最多3层）
+    for _ in range(3):
+        s = re.sub(r'\\(?:text|textbf|textit|mathrm|mathbf|mathit|mathsf|mathcal|mathbb|operatorname)\{([^{}]*)\}',
+                   r'\1', s)
+
+    s = re.sub(r'\\xrightarrow\{([^{}]*)\}', r' --\1--> ', s)
+    s = re.sub(r'\\xleftarrow\{([^{}]*)\}', r' <--\1-- ', s)
+    s = re.sub(r'\\binom\{([^{}]*)\}\{([^{}]*)\}', r'C(\1,\2)', s)
+
+    # 分数 → a/b（由内到外反复处理嵌套）
+    def frac_repl(m):
+        return f'{_wrap(m.group(1))}/{_wrap(m.group(2))}'
+    for _ in range(4):
+        s2 = re.sub(r'\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}', frac_repl, s)
+        if s2 == s:
+            break
+        s = s2
+
+    s = re.sub(r'\\sqrt\{([^{}]*)\}', lambda m: '√' + _wrap(m.group(1)), s)
+
+    # 符号与希腊字母
+    for cmd, ch in _MATH_SYMBOLS:
+        s = s.replace(cmd, ch)
+    s = re.sub(r'\\([A-Za-z]+)', lambda m: _greek_word(m.group(1)), s)
+
+    # 带上下限的求和/连乘：Σ_{a}^{b} X → Σ(a..b)
+    s = re.sub(r'([ΣΠ])\s*_\{([^{}]*)\}\s*\^\{([^{}]*)\}', r'\1(\2..\3)', s)
+    s = re.sub(r'([ΣΠ])\s*_\{([^{}]*)\}', r'\1(\2)', s)
+
+    # 一般上下标：^{...} → ^x / ^(x)，_{...} → _x / _(x)
+    s = re.sub(r'\^\{([^{}]+)\}', lambda m: '^' + _wrap(m.group(1)), s)
+    s = re.sub(r'_\{([^{}]+)\}', lambda m: '_' + _wrap(m.group(1)), s)
+
+    # 收尾：残余定界与分组括号
+    s = re.sub(r'\\\\', ' ', s)
+    s = s.replace('{', '').replace('}', '')
+    s = s.replace('\x01', '{').replace('\x02', '}')
+    return re.sub(r'  +', ' ', s).strip()
 
 # 字体缺字形的符号 → 等价可渲染字符
 _GLYPH_FIXES = {
@@ -252,20 +349,29 @@ _GLYPH_FIXES = {
 
 
 def strip_latex_math(text: str) -> str:
-    """去除LaTeX数学标记，保留内容文本"""
+    """把文本中的 LaTeX 数学片段转成可读的 Unicode 文本"""
     if not text:
         return ""
-    # $$...$$ → 内容
-    text = re.sub(r'\$\$(.*?)\$\$', r'\1', text, flags=re.DOTALL)
-    # $...$ → 内容
-    text = re.sub(r'\$(.*?)\$', r'\1', text)
-    # \(...\) 与 \[...\] → 内容
-    text = re.sub(r'\\\((.*?)\\\)', r'\1', text, flags=re.DOTALL)
-    text = re.sub(r'\\\[(.*?)\\\]', r'\1', text, flags=re.DOTALL)
-    # LaTeX 命令替换（长命令优先，避免 \le 吃掉 \leq 的前缀）
-    for cmd, ch in sorted(_LATEX_REPLACEMENTS, key=lambda x: -len(x[0])):
-        text = text.replace(cmd, ch)
-    # 上标串 → ^串（如 10⁷ → 10^7，2⁻⁶ → 2^-6）
+
+    def conv(m):
+        return _convert_math(m.group(1))
+
+    text = re.sub(r'\$\$(.*?)\$\$', conv, text, flags=re.DOTALL)
+    text = re.sub(r'\$(.*?)\$', conv, text)
+    text = re.sub(r'\\\((.*?)\\\)', conv, text, flags=re.DOTALL)
+    text = re.sub(r'\\\[(.*?)\\\]', conv, text, flags=re.DOTALL)
+
+    # 定界符外偶尔也有裸的 LaTeX 命令，只做符号级替换（不动括号结构）
+    if '\\' in text:
+        text = text.replace(r'\{', '{').replace(r'\}', '}')
+        for cmd, ch in _MATH_SYMBOLS:
+            text = text.replace(cmd, ch)
+        text = re.sub(r'\\(?:text|mathrm|mathbf|mathit)\{([^{}]*)\}', r'\1', text)
+        text = re.sub(r'\\[dt]?frac\{([^{}]*)\}\{([^{}]*)\}',
+                      lambda m: f'{_wrap(m.group(1))}/{_wrap(m.group(2))}', text)
+        text = re.sub(r'\\([A-Za-z]+)', lambda m: _greek_word(m.group(1)), text)
+
+    # 上标串 → ^串（如 10⁷ → 10^7，2⁻⁶ → 2^-6；Noto CJK 缺这些字形）
     text = re.sub(
         r'[⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻]+',
         lambda m: '^' + m.group(0).translate(_SUPERSCRIPTS),
@@ -282,20 +388,73 @@ def strip_latex_math(text: str) -> str:
 # 需要保留换行的行首标记（罗马数字/带圈数字/编号列表）
 _LIST_MARKER = re.compile(r'^(?:[ⅠⅡⅢⅣⅤ①②③④⑤⑥⑦⑧⑨]|(?:IX|IV|V?I{1,3})\s*[.、．]|[0-9]+\s*[.、．）)])')
 
+# 硬换行哨兵：表格行等必须保留换行的行
+_HARD_LINE = "\x00"
+
+
+def _disp_width(s: str) -> int:
+    return sum(2 if ord(c) > 127 else 1 for c in s)
+
+
+def convert_md_tables(text: str) -> str:
+    """把 markdown 表格转成按列对齐的纯文本行（行首打硬换行哨兵）"""
+    lines = text.split("\n")
+    out: list[str] = []
+    i = 0
+    while i < len(lines):
+        t = lines[i].strip()
+        if t.startswith("|") and t.count("|") >= 2:
+            # 收集整张表
+            rows = []
+            while i < len(lines):
+                t = lines[i].strip()
+                if not (t.startswith("|") and t.count("|") >= 2):
+                    break
+                if not re.fullmatch(r'\|[\s:|-]+\|?', t):  # 跳过 | :--- | 分隔行
+                    rows.append([c.strip() for c in t.strip("|").split("|")])
+                i += 1
+            if rows:
+                ncols = max(len(r) for r in rows)
+                widths = [
+                    max((_disp_width(r[c]) for r in rows if c < len(r)), default=0)
+                    for c in range(ncols)
+                ]
+                for r in rows:
+                    cells = [
+                        (r[c] if c < len(r) else "")
+                        + " " * (widths[c] - _disp_width(r[c] if c < len(r) else ""))
+                        for c in range(ncols)
+                    ]
+                    out.append(_HARD_LINE + "  ".join(cells).rstrip())
+        else:
+            out.append(lines[i])
+            i += 1
+    return "\n".join(out)
+
 
 def merge_soft_newlines(text: str) -> str:
     """
     合并题干中的软换行：真题HTML里行内公式常被拆成独立行，
     除列表项外把断行重新拼回一句（英文单词间补空格）
     """
-    lines = [ln.strip() for ln in text.split("\n") if ln.strip()]
+    lines = [ln.rstrip() for ln in text.split("\n") if ln.strip()]
     if not lines:
         return ""
-    out = lines[0]
+    out = lines[0].lstrip(_HARD_LINE)
+    prev_hard = lines[0].startswith(_HARD_LINE)
     for ln in lines[1:]:
-        if _LIST_MARKER.match(ln):
-            out += "\n" + ln
+        if ln.startswith(_HARD_LINE):
+            out += "\n" + ln[len(_HARD_LINE):]
+            prev_hard = True
+        elif _LIST_MARKER.match(ln.strip()):
+            out += "\n" + ln.strip()
+            prev_hard = False
+        elif prev_hard:
+            # 表格等块级内容之后的正文另起一行
+            out += "\n" + ln.strip()
+            prev_hard = False
         else:
+            ln = ln.strip()
             sep = " " if (out[-1].isascii() and out[-1].isalnum()
                           and ln[0].isascii() and ln[0].isalnum()) else ""
             out += sep + ln
@@ -303,12 +462,15 @@ def merge_soft_newlines(text: str) -> str:
 
 
 def normalize_question(q: dict) -> dict:
-    """返回清理过 LaTeX 标记、修复过换行的题目副本"""
+    """返回清理过 LaTeX 标记、表格与换行的题目副本"""
     q = dict(q)
-    q["question_text"] = merge_soft_newlines(strip_latex_math(q.get("question_text", "")))
+    q["question_text"] = merge_soft_newlines(
+        convert_md_tables(strip_latex_math(q.get("question_text", ""))))
     q["options"] = {k: merge_soft_newlines(strip_latex_math(v))
                     for k, v in q.get("options", {}).items()}
-    q["explanation"] = strip_latex_math(q.get("explanation", ""))
+    q["explanation"] = convert_md_tables(strip_latex_math(q.get("explanation", "")))
+    # explanation 里的硬换行哨兵直接还原为普通行
+    q["explanation"] = q["explanation"].replace(_HARD_LINE, "")
     return q
 
 
