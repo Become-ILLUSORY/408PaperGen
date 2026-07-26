@@ -1,0 +1,8035 @@
+{
+  "total": 720,
+  "by_subject": {
+    "数据结构": 197,
+    "计算机组成原理": 199,
+    "操作系统": 180,
+    "计算机网络": 144
+  },
+  "sequence": [
+    {
+      "seq_id": 0,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-1",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "1",
+      "tags": [
+        "缓冲区"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 1,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-2",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "2",
+      "tags": [
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 2,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-3",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "3",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 3,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-4",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "4",
+      "tags": [
+        "平衡二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 4,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-5",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "5",
+      "tags": [
+        "完全二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 5,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-6",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "6",
+      "tags": [
+        "二叉树和森林的转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 6,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-7",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "7",
+      "tags": [
+        "图的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 7,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-8",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "8",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 8,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-9",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "9",
+      "tags": [
+        "堆的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 9,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-10",
+      "subject": "数据结构",
+      "year": "2009",
+      "number": "10",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 10,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-1",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "1",
+      "tags": [
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 11,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-2",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "2",
+      "tags": [
+        "队列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 12,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-3",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "3",
+      "tags": [
+        "线索二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 13,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-4",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "4",
+      "tags": [
+        "平衡二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 14,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-5",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "5",
+      "tags": [
+        "树的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 15,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-6",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "6",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 16,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-7",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "7",
+      "tags": [
+        "图的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 17,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-8",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "8",
+      "tags": [
+        "拓扑排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 18,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-9",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "9",
+      "tags": [
+        "数组查找"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 19,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-10",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "10",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 20,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-11",
+      "subject": "数据结构",
+      "year": "2010",
+      "number": "11",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 21,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-1",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 22,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-2",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "2",
+      "tags": [
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 23,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-3",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "3",
+      "tags": [
+        "队列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 24,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-4",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "4",
+      "tags": [
+        "完全二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 25,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-5",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "5",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 26,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-6",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "6",
+      "tags": [
+        "树的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 27,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-7",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "7",
+      "tags": [
+        "二叉排序树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 28,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-8",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "8",
+      "tags": [
+        "图的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 29,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-9",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "9",
+      "tags": [
+        "散列表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 30,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-10",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "10",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 31,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-11",
+      "subject": "数据结构",
+      "year": "2011",
+      "number": "11",
+      "tags": [
+        "堆的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 32,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-1",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 33,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-2",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "2",
+      "tags": [
+        "中缀转后缀"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 34,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-3",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "3",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 35,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-4",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "4",
+      "tags": [
+        "平衡二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 36,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-5",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "5",
+      "tags": [
+        "图的遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 37,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-6",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "6",
+      "tags": [
+        "拓扑排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 38,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-7",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "7",
+      "tags": [
+        "最短路径"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 39,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-8",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "8",
+      "tags": [
+        "最小生成树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 40,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-9",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "9",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 41,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-10",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "10",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 42,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-11",
+      "subject": "数据结构",
+      "year": "2012",
+      "number": "11",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 43,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-1",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 44,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-2",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "2",
+      "tags": [
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 45,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-3",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "3",
+      "tags": [
+        "平衡二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 46,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-4",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "4",
+      "tags": [
+        "树的概念",
+        "带权路径长度"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 47,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-5",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "5",
+      "tags": [
+        "线索二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 48,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-6",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "6",
+      "tags": [
+        "二叉排序树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 49,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-7",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "7",
+      "tags": [
+        "邻接矩阵"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 50,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-8",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "8",
+      "tags": [
+        "图的遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 51,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-9",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "9",
+      "tags": [
+        "关键路径"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 52,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-10",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "10",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 53,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-11",
+      "subject": "数据结构",
+      "year": "2013",
+      "number": "11",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 54,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-1",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 55,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-2",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "2",
+      "tags": [
+        "中缀转后缀"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 56,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-3",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "3",
+      "tags": [
+        "队列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 57,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-4",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "4",
+      "tags": [
+        "线索二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 58,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-5",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "5",
+      "tags": [
+        "二叉树和森林的转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 59,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-6",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "6",
+      "tags": [
+        "前缀编码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 60,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-7",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "7",
+      "tags": [
+        "拓扑排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 61,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-8",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "8",
+      "tags": [
+        "散列表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 62,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-9",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "9",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 63,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-10",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "10",
+      "tags": [
+        "排序算法",
+        "希尔排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 64,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-11",
+      "subject": "数据结构",
+      "year": "2014",
+      "number": "11",
+      "tags": [
+        "排序算法",
+        "快速排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 65,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-1",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "1",
+      "tags": [
+        "栈"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 66,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-2",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "2",
+      "tags": [
+        "入栈出栈序列",
+        "卡特兰数"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 67,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-3",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "3",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 68,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-4",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "4",
+      "tags": [
+        "平衡二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 69,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-5",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "5",
+      "tags": [
+        "图的遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 70,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-6",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "6",
+      "tags": [
+        "最小生成树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 71,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-7",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "7",
+      "tags": [
+        "数组查找"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 72,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-8",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "8",
+      "tags": [
+        "KMP算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 73,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-9",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "9",
+      "tags": [
+        "排序算法",
+        "基数排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 74,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-10",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "10",
+      "tags": [
+        "堆的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 75,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-11",
+      "subject": "数据结构",
+      "year": "2015",
+      "number": "11",
+      "tags": [
+        "排序算法",
+        "希尔排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 76,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-1",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "1",
+      "tags": [
+        "链表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 77,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-2",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "2",
+      "tags": [
+        "链表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 78,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-3",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "3",
+      "tags": [
+        "队列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 79,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-4",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "4",
+      "tags": [
+        "特殊矩阵",
+        "三对角矩阵"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 80,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-5",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "5",
+      "tags": [
+        "森林的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 81,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-6",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "6",
+      "tags": [
+        "图的遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 82,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-7",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "7",
+      "tags": [
+        "复杂度分析",
+        "邻接表",
+        "拓扑排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 83,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-8",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "8",
+      "tags": [
+        "最短路径"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 84,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-9",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "9",
+      "tags": [
+        "数组查找"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 85,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-10",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "10",
+      "tags": [
+        "B树",
+        "B+树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 86,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-11",
+      "subject": "数据结构",
+      "year": "2016",
+      "number": "11",
+      "tags": [
+        "外部排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 87,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-1",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 88,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-2",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "2",
+      "tags": [
+        "栈",
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 89,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-3",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "3",
+      "tags": [
+        "特殊矩阵"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 90,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-4",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "4",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 91,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-5",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "5",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 92,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-6",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "6",
+      "tags": [
+        "哈夫曼编码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 93,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-7",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "7",
+      "tags": [
+        "图的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 94,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-8",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "8",
+      "tags": [
+        "二叉排序树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 95,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-9",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "9",
+      "tags": [
+        "B+树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 96,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-10",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "10",
+      "tags": [
+        "排序算法",
+        "归并排序",
+        "插入排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 97,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-11",
+      "subject": "数据结构",
+      "year": "2017",
+      "number": "11",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 98,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-1",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "1",
+      "tags": [
+        "后序表达式求值"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 99,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-2",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "2",
+      "tags": [
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 100,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-3",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "3",
+      "tags": [
+        "特殊矩阵"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 101,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-4",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "4",
+      "tags": [
+        "满二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 102,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-5",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "5",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 103,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-6",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "6",
+      "tags": [
+        "二叉排序树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 104,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-7",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "7",
+      "tags": [
+        "拓扑排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 105,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-8",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "8",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 106,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-9",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "9",
+      "tags": [
+        "散列表",
+        "平均查找长度"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 107,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-10",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "10",
+      "tags": [
+        "排序算法",
+        "希尔排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 108,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-11",
+      "subject": "数据结构",
+      "year": "2018",
+      "number": "11",
+      "tags": [
+        "堆的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 109,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-1",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 110,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-2",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "2",
+      "tags": [
+        "树和二叉树的转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 111,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-3",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "3",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 112,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-4",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "4",
+      "tags": [
+        "平衡二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 113,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-5",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "5",
+      "tags": [
+        "关键路径"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 114,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-6",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "6",
+      "tags": [
+        "图表示树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 115,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-7",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "7",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 116,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-8",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "8",
+      "tags": [
+        "散列表",
+        "平均查找长度"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 117,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-9",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "9",
+      "tags": [
+        "KMP算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 118,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-10",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "10",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 119,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-11",
+      "subject": "数据结构",
+      "year": "2019",
+      "number": "11",
+      "tags": [
+        "外部排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 120,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-1",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "1",
+      "tags": [
+        "特殊矩阵"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 121,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-2",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "2",
+      "tags": [
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 122,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-3",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "3",
+      "tags": [
+        "二叉树存储"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 123,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-4",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "4",
+      "tags": [
+        "二叉树遍历",
+        "二叉树构建"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 124,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-5",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "5",
+      "tags": [
+        "二叉排序树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 125,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-6",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "6",
+      "tags": [
+        "图的遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 126,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-7",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "7",
+      "tags": [
+        "最小生成树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 127,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-8",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "8",
+      "tags": [
+        "关键路径"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 128,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-9",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "9",
+      "tags": [
+        "堆的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 129,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-10",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "10",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 130,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-11",
+      "subject": "数据结构",
+      "year": "2020",
+      "number": "11",
+      "tags": [
+        "排序算法",
+        "插入排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 131,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-1",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "1",
+      "tags": [
+        "链表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 132,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-2",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "2",
+      "tags": [
+        "队列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 133,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-3",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "3",
+      "tags": [
+        "二维数组"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 134,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-4",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "4",
+      "tags": [
+        "二叉树构建",
+        "二叉树和森林的转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 135,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-5",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "5",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 136,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-6",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "6",
+      "tags": [
+        "平衡二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 137,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-7",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "7",
+      "tags": [
+        "拓扑排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 138,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-8",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "8",
+      "tags": [
+        "最短路径"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 139,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-9",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "9",
+      "tags": [
+        "树的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 140,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-10",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "10",
+      "tags": [
+        "排序算法",
+        "基数排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 141,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-11",
+      "subject": "数据结构",
+      "year": "2021",
+      "number": "11",
+      "tags": [
+        "堆的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 142,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-1",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 143,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-2",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "2",
+      "tags": [
+        "入栈出栈序列"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 144,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-3",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "3",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 145,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-4",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "4",
+      "tags": [
+        "树的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 146,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-5",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "5",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 147,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-6",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "6",
+      "tags": [
+        "图的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 148,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-7",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "7",
+      "tags": [
+        "关键路径"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 149,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-8",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "8",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 150,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-9",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "9",
+      "tags": [
+        "散列表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 151,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-10",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "10",
+      "tags": [
+        "归并排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 152,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-11",
+      "subject": "数据结构",
+      "year": "2022",
+      "number": "11",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 153,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-1",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "1",
+      "tags": [
+        "顺序表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 154,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-2",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "2",
+      "tags": [
+        "链表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 155,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-3",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "3",
+      "tags": [
+        "特殊矩阵",
+        "三元组表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 156,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-4",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "4",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 157,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-5",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "5",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 158,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-6",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "6",
+      "tags": [
+        "最小生成树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 159,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-7",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "7",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 160,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-8",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "8",
+      "tags": [
+        "数组查找"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 161,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-9",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "9",
+      "tags": [
+        "散列表",
+        "平均查找长度"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 162,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-10",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "10",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 163,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-11",
+      "subject": "数据结构",
+      "year": "2023",
+      "number": "11",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 164,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-1",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "1",
+      "tags": [
+        "链表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 165,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-2",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "2",
+      "tags": [
+        "中缀转后缀"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 166,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-3",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "3",
+      "tags": [
+        "二叉树遍历"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 167,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-4",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "4",
+      "tags": [
+        "邻接多重表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 168,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-5",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "5",
+      "tags": [
+        "数组查找"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 169,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-6",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "6",
+      "tags": [
+        "KMP算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 170,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-7",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "7",
+      "tags": [
+        "二叉排序树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 171,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-8",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "8",
+      "tags": [
+        "快速排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 172,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-9",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "9",
+      "tags": [
+        "堆的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 173,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-10",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "10",
+      "tags": [
+        "归并排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 174,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-11",
+      "subject": "数据结构",
+      "year": "2024",
+      "number": "11",
+      "tags": [
+        "败者树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 175,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-1",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "1",
+      "tags": [
+        "复杂度分析"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 176,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-2",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "2",
+      "tags": [
+        "栈"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 177,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-3",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "3",
+      "tags": [
+        "二叉树存储"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 178,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-4",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "4",
+      "tags": [
+        "二叉树和森林的转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 179,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-5",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "5",
+      "tags": [
+        "哈夫曼树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 180,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-6",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "6",
+      "tags": [
+        "图的概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 181,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-7",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "7",
+      "tags": [
+        "数组查找",
+        "分块查找"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 182,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-8",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "8",
+      "tags": [
+        "B树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 183,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-9",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "9",
+      "tags": [
+        "散列表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 184,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-10",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "10",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 185,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-11",
+      "subject": "数据结构",
+      "year": "2025",
+      "number": "11",
+      "tags": [
+        "排序算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 186,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-1",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "1",
+      "tags": [
+        "线性表-线性表的实现"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 187,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-2",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "2",
+      "tags": [
+        "线性表-线性表的实现"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 188,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-3",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "3",
+      "tags": [
+        "树和二叉树-二叉树"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 189,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-4",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "4",
+      "tags": [
+        "树和二叉树-树、森林"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 190,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-5",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "5",
+      "tags": [
+        "树和二叉树-树和二叉树的应用"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 191,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-6",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "6",
+      "tags": [
+        "图-图的存储及基本操作"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 192,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-7",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "7",
+      "tags": [
+        "图-图的基本概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 193,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-8",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "8",
+      "tags": [
+        "树和二叉树-树和二叉树的应用"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 194,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-9",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "9",
+      "tags": [
+        "排序-直接插入排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 195,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-10",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "10",
+      "tags": [
+        "排序-基数排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 196,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-11",
+      "subject": "数据结构",
+      "year": "2026",
+      "number": "11",
+      "tags": [
+        "排序-外部排序"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 197,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-11",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "11",
+      "tags": [
+        "计算机体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 198,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-12",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "12",
+      "tags": [
+        "类型转换",
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 199,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-13",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "13",
+      "tags": [
+        "浮点数加减"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 200,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-14",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "14",
+      "tags": [
+        "cache映射方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 201,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-15",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "15",
+      "tags": [
+        "主存容量的扩展"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 202,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-16",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "16",
+      "tags": [
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 203,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-17",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "17",
+      "tags": [
+        "复杂和精简指令集",
+        "控制器种类"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 204,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-18",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "18",
+      "tags": [
+        "流水线概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 205,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-19",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "19",
+      "tags": [
+        "控制器种类"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 206,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-20",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "20",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 207,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-21",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "21",
+      "tags": [
+        "cache概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 208,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-22",
+      "subject": "计算机组成原理",
+      "year": "2009",
+      "number": "22",
+      "tags": [
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 209,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-12",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "12",
+      "tags": [
+        "计算机体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 210,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-13",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "13",
+      "tags": [
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 211,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-14",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "14",
+      "tags": [
+        "类型转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 212,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-15",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "15",
+      "tags": [
+        "主存容量的扩展"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 213,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-16",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "16",
+      "tags": [
+        "存储器概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 214,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-17",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "17",
+      "tags": [
+        "访存过程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 215,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-18",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "18",
+      "tags": [
+        "寄存器类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 216,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-19",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "19",
+      "tags": [
+        "流水线冒险"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 217,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-20",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "20",
+      "tags": [
+        "总线类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 218,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-21",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "21",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 219,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-22",
+      "subject": "计算机组成原理",
+      "year": "2010",
+      "number": "22",
+      "tags": [
+        "存储器概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 220,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-12",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "12",
+      "tags": [
+        "指令执行指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 221,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-13",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "13",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 222,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-14",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "14",
+      "tags": [
+        "存储器概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 223,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-15",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "15",
+      "tags": [
+        "存储器概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 224,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-16",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "16",
+      "tags": [
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 225,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-17",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "17",
+      "tags": [
+        "标志寄存器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 226,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-18",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "18",
+      "tags": [
+        "流水线概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 227,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-19",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "19",
+      "tags": [
+        "计算机性能指标",
+        "中断屏蔽"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 228,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-20",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "20",
+      "tags": [
+        "总线概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 229,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-21",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "21",
+      "tags": [
+        "多级中断",
+        "中断屏蔽"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 230,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-22",
+      "subject": "计算机组成原理",
+      "year": "2011",
+      "number": "22",
+      "tags": [
+        "IO方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 231,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-12",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "12",
+      "tags": [
+        "计算机体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 232,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-13",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "13",
+      "tags": [
+        "无符号数",
+        "类型转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 233,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-14",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "14",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 234,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-15",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "15",
+      "tags": [
+        "数据对齐"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 235,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-16",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "16",
+      "tags": [
+        "存储器层次结构-外部存储器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 236,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-17",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "17",
+      "tags": [
+        "cache映射方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 237,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-18",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "18",
+      "tags": [
+        "控制器种类"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 238,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-19",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "19",
+      "tags": [
+        "总线事务"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 239,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-20",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "20",
+      "tags": [
+        "总线类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 240,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-21",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "21",
+      "tags": [
+        "总线概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 241,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-22",
+      "subject": "计算机组成原理",
+      "year": "2012",
+      "number": "22",
+      "tags": [
+        "中断IO",
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 242,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-12",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "12",
+      "tags": [
+        "指令执行指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 243,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-13",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "13",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 244,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-14",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "14",
+      "tags": [
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 245,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-15",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "15",
+      "tags": [
+        "差错控制",
+        "海明码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 246,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-16",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "16",
+      "tags": [
+        "地址翻译"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 247,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-17",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "17",
+      "tags": [
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 248,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-18",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "18",
+      "tags": [
+        "流水线概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 249,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-19",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "19",
+      "tags": [
+        "总线类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 250,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-20",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "20",
+      "tags": [
+        "RAID"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 251,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-21",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "21",
+      "tags": [
+        "磁盘性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 252,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-22",
+      "subject": "计算机组成原理",
+      "year": "2013",
+      "number": "22",
+      "tags": [
+        "中断IO",
+        "DMA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 253,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-12",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "12",
+      "tags": [
+        "计算机性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 254,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-13",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "13",
+      "tags": [
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 255,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-14",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "14",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 256,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-15",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "15",
+      "tags": [
+        "主存容量的扩展"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 257,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-16",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "16",
+      "tags": [
+        "cache概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 258,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-17",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "17",
+      "tags": [
+        "指令寻址方式",
+        "寄存器类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 259,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-18",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "18",
+      "tags": [
+        "微程序控制器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 260,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-19",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "19",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 261,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-20",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "20",
+      "tags": [
+        "总线事务"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 262,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-21",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "21",
+      "tags": [
+        "IO接口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 263,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-22",
+      "subject": "计算机组成原理",
+      "year": "2014",
+      "number": "22",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 264,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-12",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "12",
+      "tags": [
+        "计算机体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 265,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-13",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "13",
+      "tags": [
+        "数据的表示和运算-整数的表示和运算"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 266,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-14",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "14",
+      "tags": [
+        "浮点数加减"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 267,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-15",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "15",
+      "tags": [
+        "cache映射方式",
+        "cache写策略"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 268,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-16",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "16",
+      "tags": [
+        "cache写策略",
+        "TLB"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 269,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-17",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "17",
+      "tags": [
+        "存储器概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 270,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-18",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "18",
+      "tags": [
+        "主存容量的扩展"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 271,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-19",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "19",
+      "tags": [
+        "总线定时"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 272,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-20",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "20",
+      "tags": [
+        "磁盘性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 273,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-21",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "21",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 274,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-22",
+      "subject": "计算机组成原理",
+      "year": "2015",
+      "number": "22",
+      "tags": [
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 275,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-12",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "12",
+      "tags": [
+        "计算机体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 276,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-13",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "13",
+      "tags": [
+        "类型转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 277,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-14",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "14",
+      "tags": [
+        "大小端"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 278,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-15",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "15",
+      "tags": [
+        "cache概念",
+        "cache映射方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 279,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-16",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "16",
+      "tags": [
+        "存储器层次结构-主存储器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 280,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-17",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "17",
+      "tags": [
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 281,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-18",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "18",
+      "tags": [
+        "寄存器类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 282,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-19",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "19",
+      "tags": [
+        "流水线冒险"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 283,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-20",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "20",
+      "tags": [
+        "单周期处理器",
+        "总线类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 284,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-21",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "21",
+      "tags": [
+        "总线事务"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 285,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-22",
+      "subject": "计算机组成原理",
+      "year": "2016",
+      "number": "22",
+      "tags": [
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 286,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-12",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "12",
+      "tags": [
+        "指令体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 287,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-13",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "13",
+      "tags": [
+        "主存容量的扩展"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 288,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-14",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "14",
+      "tags": [
+        "cache概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 289,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-15",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "15",
+      "tags": [
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 290,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-16",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "16",
+      "tags": [
+        "操作码扩展编码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 291,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-17",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "17",
+      "tags": [
+        "超流水线"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 292,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-18",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "18",
+      "tags": [
+        "寄存器类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 293,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-19",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "19",
+      "tags": [
+        "流水线概念",
+        "数据通路"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 294,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-20",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "20",
+      "tags": [
+        "总线类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 295,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-21",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "21",
+      "tags": [
+        "IO接口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 296,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-22",
+      "subject": "计算机组成原理",
+      "year": "2017",
+      "number": "22",
+      "tags": [
+        "多级中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 297,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-12",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "12",
+      "tags": [
+        "计算机体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 298,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-13",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "13",
+      "tags": [
+        "补码",
+        "类型转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 299,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-14",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "14",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 300,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-15",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "15",
+      "tags": [
+        "大小端"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 301,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-16",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "16",
+      "tags": [
+        "逻辑移位"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 302,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-17",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "17",
+      "tags": [
+        "主存容量的扩展"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 303,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-18",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "18",
+      "tags": [
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 304,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-19",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "19",
+      "tags": [
+        "标志寄存器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 305,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-20",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "20",
+      "tags": [
+        "流水线概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 306,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-21",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "21",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 307,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-22",
+      "subject": "计算机组成原理",
+      "year": "2018",
+      "number": "22",
+      "tags": [
+        "总线事务",
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 308,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-12",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "12",
+      "tags": [
+        "计算机体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 309,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-13",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "13",
+      "tags": [
+        "补码",
+        "类型转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 310,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-14",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "14",
+      "tags": [
+        "缺页异常"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 311,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-15",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "15",
+      "tags": [
+        "大小端"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 312,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-16",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "16",
+      "tags": [
+        "计算机性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 313,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-17",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "17",
+      "tags": [
+        "寄存器类型",
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 314,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-18",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "18",
+      "tags": [
+        "流水线冒险"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 315,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-19",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "19",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 316,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-20",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "20",
+      "tags": [
+        "磁盘概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 317,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-21",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "21",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 318,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-22",
+      "subject": "计算机组成原理",
+      "year": "2019",
+      "number": "22",
+      "tags": [
+        "DMA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 319,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-12",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "12",
+      "tags": [
+        "寄存器类型",
+        "计算机性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 320,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-13",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "13",
+      "tags": [
+        "补码",
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 321,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-14",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "14",
+      "tags": [
+        "大小端",
+        "数据对齐"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 322,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-15",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "15",
+      "tags": [
+        "cache概念",
+        "TLB"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 323,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-16",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "16",
+      "tags": [
+        "指令寻址方式",
+        "指令格式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 324,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-17",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "17",
+      "tags": [
+        "流水线概念",
+        "单周期处理器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 325,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-18",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "18",
+      "tags": [
+        "陷阱指令"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 326,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-19",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "19",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 327,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-20",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "20",
+      "tags": [
+        "异常和中断",
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 328,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-21",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "21",
+      "tags": [
+        "中断屏蔽",
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 329,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-22",
+      "subject": "计算机组成原理",
+      "year": "2020",
+      "number": "22",
+      "tags": [
+        "DMA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 330,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-12",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "12",
+      "tags": [
+        "计算机性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 331,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-13",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "13",
+      "tags": [
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 332,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-14",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "14",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 333,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-15",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "15",
+      "tags": [
+        "主存容量的扩展"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 334,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-16",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "16",
+      "tags": [
+        "cache映射方式",
+        "cache写策略"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 335,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-17",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "17",
+      "tags": [
+        "寄存器类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 336,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-18",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "18",
+      "tags": [
+        "数据通路"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 337,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-19",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "19",
+      "tags": [
+        "总线概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 338,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-20",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "20",
+      "tags": [
+        "IO接口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 339,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-21",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "21",
+      "tags": [
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 340,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-22",
+      "subject": "计算机组成原理",
+      "year": "2021",
+      "number": "22",
+      "tags": [
+        "多级中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 341,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-12",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "12",
+      "tags": [
+        "计算机性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 342,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-13",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "13",
+      "tags": [
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 343,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-14",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "14",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 344,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-15",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "15",
+      "tags": [
+        "页表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 345,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-16",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "16",
+      "tags": [
+        "cache映射方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 346,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-17",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "17",
+      "tags": [
+        "存储器层次结构-主存储器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 347,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-18",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "18",
+      "tags": [
+        "指令体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 348,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-19",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "19",
+      "tags": [
+        "指令种类",
+        "操作码扩展编码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 349,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-20",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "20",
+      "tags": [
+        "编译过程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 350,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-21",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "21",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 351,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-22",
+      "subject": "计算机组成原理",
+      "year": "2022",
+      "number": "22",
+      "tags": [
+        "多处理机"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 352,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-12",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "12",
+      "tags": [
+        "计算机性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 353,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-13",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "13",
+      "tags": [
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 354,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-14",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "14",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 355,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-15",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "15",
+      "tags": [
+        "存储器地址"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 356,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-16",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "16",
+      "tags": [
+        "标志寄存器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 357,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-17",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "17",
+      "tags": [
+        "指令寻址方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 358,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-18",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "18",
+      "tags": [
+        "数据通路"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 359,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-19",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "19",
+      "tags": [
+        "流水线冒险"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 360,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-20",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "20",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 361,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-21",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "21",
+      "tags": [
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 362,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-22",
+      "subject": "计算机组成原理",
+      "year": "2023",
+      "number": "22",
+      "tags": [
+        "IO方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 363,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-12",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "12",
+      "tags": [
+        "补码",
+        "类型转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 364,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-13",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "13",
+      "tags": [
+        "微程序控制器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 365,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-14",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "14",
+      "tags": [
+        "IEEE浮点数表示",
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 366,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-15",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "15",
+      "tags": [
+        "运算电路"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 367,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-16",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "16",
+      "tags": [
+        "虚拟页式管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 368,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-17",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "17",
+      "tags": [
+        "TLB"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 369,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-18",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "18",
+      "tags": [
+        "虚拟页式管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 370,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-19",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "19",
+      "tags": [
+        "流水线冒险"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 371,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-20",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "20",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 372,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-21",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "21",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 373,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-22",
+      "subject": "计算机组成原理",
+      "year": "2024",
+      "number": "22",
+      "tags": [
+        "DMA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 374,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-12",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "12",
+      "tags": [
+        "类型转换"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 375,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-13",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "13",
+      "tags": [
+        "IEEE浮点数表示"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 376,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-14",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "14",
+      "tags": [
+        "补码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 377,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-15",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "15",
+      "tags": [
+        "大小端",
+        "数据对齐"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 378,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-16",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "16",
+      "tags": [
+        "指令体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 379,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-17",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "17",
+      "tags": [
+        "复杂和精简指令集"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 380,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-18",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "18",
+      "tags": [
+        "计算机性能指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 381,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-19",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "19",
+      "tags": [
+        "数据通路",
+        "控制器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 382,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-20",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "20",
+      "tags": [
+        "总线指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 383,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-21",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "21",
+      "tags": [
+        "DMA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 384,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-22",
+      "subject": "计算机组成原理",
+      "year": "2025",
+      "number": "22",
+      "tags": [
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 385,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-12",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "12",
+      "tags": [
+        "计算机系统概述-计算机系统层次结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 386,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-13",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "13",
+      "tags": [
+        "数据的表示和运算-整数的表示和运算"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 387,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-14",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "14",
+      "tags": [
+        "数据的表示和运算-浮点数的表示和运算"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 388,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-15",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "15",
+      "tags": [
+        "存储器层次结构-主存储器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 389,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-16",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "16",
+      "tags": [
+        "指令系统-指令系统的基本概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 390,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-17",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "17",
+      "tags": [
+        "中央处理器（CPU）-指令执行过程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 391,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-18",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "18",
+      "tags": [
+        "存储器层次结构-高速缓冲存储器（Cache）"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 392,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-19",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "19",
+      "tags": [
+        "存储器层次结构-虚拟存储器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 393,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-20",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "20",
+      "tags": [
+        "中央处理器（CPU）-指令执行过程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 394,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-21",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "21",
+      "tags": [
+        "中央处理器（CPU）-异常和中断机制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 395,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-22",
+      "subject": "计算机组成原理",
+      "year": "2026",
+      "number": "22",
+      "tags": [
+        "中央处理器（CPU）-异常和中断机制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 396,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-23",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "23",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 397,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-24",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "24",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 398,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-25",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "25",
+      "tags": [
+        "死锁概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 399,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-26",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "26",
+      "tags": [
+        "内存管理方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 400,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-27",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "27",
+      "tags": [
+        "段式内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 401,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-28",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "28",
+      "tags": [
+        "文件物理结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 402,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-29",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "29",
+      "tags": [
+        "磁盘调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 403,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-30",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "30",
+      "tags": [
+        "inode"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 404,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-31",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "31",
+      "tags": [
+        "文件链接"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 405,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-32",
+      "subject": "操作系统",
+      "year": "2009",
+      "number": "32",
+      "tags": [
+        "设备分配和回收"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 406,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-23",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "23",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 407,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-24",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "24",
+      "tags": [
+        "进程概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 408,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-25",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "25",
+      "tags": [
+        "信号量"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 409,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-26",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "26",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 410,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-27",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "27",
+      "tags": [
+        "软件互斥算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 411,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-28",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "28",
+      "tags": [
+        "动态分区分配"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 412,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-29",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "29",
+      "tags": [
+        "页表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 413,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-30",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "30",
+      "tags": [
+        "文件物理结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 414,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-31",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "31",
+      "tags": [
+        "目录"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 415,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-32",
+      "subject": "操作系统",
+      "year": "2010",
+      "number": "32",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 416,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-23",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "23",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 417,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-24",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "24",
+      "tags": [
+        "用户态和内核态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 418,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-25",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "25",
+      "tags": [
+        "进程和线程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 419,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-26",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "26",
+      "tags": [
+        "IO软件层次"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 420,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-27",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "27",
+      "tags": [
+        "银行家算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 421,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-28",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "28",
+      "tags": [
+        "缺页异常"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 422,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-29",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "29",
+      "tags": [
+        "抖动"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 423,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-30",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "30",
+      "tags": [
+        "程序的链接",
+        "程序的装入"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 424,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-31",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "31",
+      "tags": [
+        "缓冲区"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 425,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-32",
+      "subject": "操作系统",
+      "year": "2011",
+      "number": "32",
+      "tags": [
+        "进程和线程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 426,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-23",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "23",
+      "tags": [
+        "用户态和内核态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 427,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-24",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "24",
+      "tags": [
+        "寄存器类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 428,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-25",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "25",
+      "tags": [
+        "虚拟页式管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 429,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-26",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "26",
+      "tags": [
+        "IO软件层次"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 430,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-27",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "27",
+      "tags": [
+        "银行家算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 431,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-28",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "28",
+      "tags": [
+        "系统调用",
+        "缺页异常"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 432,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-29",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "29",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 433,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-30",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "30",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 434,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-31",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "31",
+      "tags": [
+        "进程和线程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 435,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-32",
+      "subject": "操作系统",
+      "year": "2012",
+      "number": "32",
+      "tags": [
+        "磁盘概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 436,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-23",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "23",
+      "tags": [
+        "inode"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 437,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-24",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "24",
+      "tags": [
+        "文件物理结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 438,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-25",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "25",
+      "tags": [
+        "CHS地址",
+        "IO软件层次"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 439,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-26",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "26",
+      "tags": [
+        "inode"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 440,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-27",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "27",
+      "tags": [
+        "缓冲区"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 441,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-28",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "28",
+      "tags": [
+        "用户态和内核态",
+        "系统调用"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 442,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-29",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "29",
+      "tags": [
+        "系统引导流程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 443,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-30",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "30",
+      "tags": [
+        "缺页异常"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 444,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-31",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "31",
+      "tags": [
+        "处理机调度概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 445,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-32",
+      "subject": "操作系统",
+      "year": "2013",
+      "number": "32",
+      "tags": [
+        "银行家算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 446,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-23",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "23",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 447,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-24",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "24",
+      "tags": [
+        "死锁产生的必要条件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 448,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-25",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "25",
+      "tags": [
+        "用户态和内核态",
+        "陷阱指令"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 449,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-26",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "26",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 450,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-27",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "27",
+      "tags": [
+        "外存空间管理",
+        "位图法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 451,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-28",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "28",
+      "tags": [
+        "地址翻译",
+        "TLB",
+        "页表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 452,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-29",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "29",
+      "tags": [
+        "inode"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 453,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-30",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "30",
+      "tags": [
+        "Belady异常"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 454,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-31",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "31",
+      "tags": [
+        "进程间通信"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 455,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-32",
+      "subject": "操作系统",
+      "year": "2014",
+      "number": "32",
+      "tags": [
+        "页表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 456,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-23",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "23",
+      "tags": [
+        "寄存器类型",
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 457,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-24",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "24",
+      "tags": [
+        "用户态和内核态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 458,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-25",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "25",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 459,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-26",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "26",
+      "tags": [
+        "死锁的处理方法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 460,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-27",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "27",
+      "tags": [
+        "页面置换算法",
+        "LRU"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 461,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-28",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "28",
+      "tags": [
+        "缓冲区"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 462,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-29",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "29",
+      "tags": [
+        "文件物理结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 463,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-30",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "30",
+      "tags": [
+        "页框分配和置换策略"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 464,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-31",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "31",
+      "tags": [
+        "位图法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 465,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-32",
+      "subject": "操作系统",
+      "year": "2015",
+      "number": "32",
+      "tags": [
+        "磁盘调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 466,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-23",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "23",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 467,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-24",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "24",
+      "tags": [
+        "处理机调度概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 468,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-25",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "25",
+      "tags": [
+        "死锁预防",
+        "临界资源"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 469,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-26",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "26",
+      "tags": [
+        "页面置换算法",
+        "clock算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 470,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-27",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "27",
+      "tags": [
+        "硬件互斥指令"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 471,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-28",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "28",
+      "tags": [
+        "地址翻译",
+        "段式内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 472,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-29",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "29",
+      "tags": [
+        "驻留集"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 473,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-30",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "30",
+      "tags": [
+        "进程的互斥"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 474,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-31",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "31",
+      "tags": [
+        "SPOOLing"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 475,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-32",
+      "subject": "操作系统",
+      "year": "2016",
+      "number": "32",
+      "tags": [
+        "管程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 476,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-23",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "23",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 477,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-24",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "24",
+      "tags": [
+        "系统调用"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 478,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-25",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "25",
+      "tags": [
+        "动态分区分配"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 479,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-26",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "26",
+      "tags": [
+        "外存空间管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 480,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-27",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "27",
+      "tags": [
+        "处理机调度算法",
+        "时间片轮转"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 481,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-28",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "28",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 482,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-29",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "29",
+      "tags": [
+        "磁盘格式化"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 483,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-30",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "30",
+      "tags": [
+        "inode"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 484,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-31",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "31",
+      "tags": [
+        "inode",
+        "文件链接"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 485,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-32",
+      "subject": "操作系统",
+      "year": "2017",
+      "number": "32",
+      "tags": [
+        "DMA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 486,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-23",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "23",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 487,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-24",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "24",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 488,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-25",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "25",
+      "tags": [
+        "进程和线程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 489,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-26",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "26",
+      "tags": [
+        "银行家算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 490,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-27",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "27",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 491,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-28",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "28",
+      "tags": [
+        "管程",
+        "条件变量"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 492,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-29",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "29",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 493,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-30",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "30",
+      "tags": [
+        "磁盘调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 494,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-31",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "31",
+      "tags": [
+        "缓冲区"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 495,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-32",
+      "subject": "操作系统",
+      "year": "2018",
+      "number": "32",
+      "tags": [
+        "硬件互斥指令",
+        "信号量"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 496,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-23",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "23",
+      "tags": [
+        "用户级和内核级线程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 497,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-24",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "24",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 498,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-25",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "25",
+      "tags": [
+        "系统调用",
+        "用户态和内核态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 499,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-26",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "26",
+      "tags": [
+        "外存空间管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 500,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-27",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "27",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 501,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-28",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "28",
+      "tags": [
+        "段式内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 502,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-29",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "29",
+      "tags": [
+        "内存管理-虚拟内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 503,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-30",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "30",
+      "tags": [
+        "死锁产生的必要条件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 504,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-31",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "31",
+      "tags": [
+        "地址翻译",
+        "页表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 505,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-32",
+      "subject": "操作系统",
+      "year": "2019",
+      "number": "32",
+      "tags": [
+        "动态分区分配"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 506,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-23",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "23",
+      "tags": [
+        "进程文件管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 507,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-24",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "24",
+      "tags": [
+        "文件物理结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 508,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-25",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "25",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 509,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-26",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "26",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 510,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-27",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "27",
+      "tags": [
+        "银行家算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 511,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-28",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "28",
+      "tags": [
+        "访存过程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 512,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-29",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "29",
+      "tags": [
+        "进程概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 513,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-30",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "30",
+      "tags": [
+        "设备分配和回收"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 514,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-31",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "31",
+      "tags": [
+        "目录",
+        "inode"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 515,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-32",
+      "subject": "操作系统",
+      "year": "2020",
+      "number": "32",
+      "tags": [
+        "同步原则"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 516,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-23",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "23",
+      "tags": [
+        "用户态和内核态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 517,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-24",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "24",
+      "tags": [
+        "进程概念",
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 518,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-25",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "25",
+      "tags": [
+        "处理机调度算法",
+        "时间片轮转"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 519,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-26",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "26",
+      "tags": [
+        "磁盘调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 520,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-27",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "27",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 521,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-28",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "28",
+      "tags": [
+        "页面置换算法",
+        "clock算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 522,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-29",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "29",
+      "tags": [
+        "页表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 523,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-30",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "30",
+      "tags": [
+        "文件链接"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 524,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-31",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "31",
+      "tags": [
+        "死锁产生的必要条件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 525,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-32",
+      "subject": "操作系统",
+      "year": "2021",
+      "number": "32",
+      "tags": [
+        "系统调用"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 526,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-23",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "23",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 527,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-24",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "24",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 528,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-25",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "25",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 529,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-26",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "26",
+      "tags": [
+        "银行家算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 530,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-27",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "27",
+      "tags": [
+        "用户态和内核态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 531,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-28",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "28",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 532,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-29",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "29",
+      "tags": [
+        "缺页异常"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 533,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-30",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "30",
+      "tags": [
+        "页面置换算法",
+        "缓冲区"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 534,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-31",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "31",
+      "tags": [
+        "系统调用"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 535,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-32",
+      "subject": "操作系统",
+      "year": "2022",
+      "number": "32",
+      "tags": [
+        "IO软件层次"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 536,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-23",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "23",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 537,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-24",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "24",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 538,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-25",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "25",
+      "tags": [
+        "位图法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 539,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-26",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "26",
+      "tags": [
+        "用户态和内核态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 540,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-27",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "27",
+      "tags": [
+        "进程状态"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 541,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-28",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "28",
+      "tags": [
+        "虚拟页式管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 542,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-29",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "29",
+      "tags": [
+        "调度指标",
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 543,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-30",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "30",
+      "tags": [
+        "虚拟页式管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 544,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-31",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "31",
+      "tags": [
+        "inode"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 545,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-32",
+      "subject": "操作系统",
+      "year": "2023",
+      "number": "32",
+      "tags": [
+        "设备分配和回收"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 546,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-23",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "23",
+      "tags": [
+        "异常和中断"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 547,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-24",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "24",
+      "tags": [
+        "进程概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 548,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-25",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "25",
+      "tags": [
+        "虚拟页式管理",
+        "寄存器类型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 549,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-26",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "26",
+      "tags": [
+        "外存空间管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 550,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-27",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "27",
+      "tags": [
+        "动态分区分配"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 551,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-28",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "28",
+      "tags": [
+        "进程和线程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 552,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-29",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "29",
+      "tags": [
+        "系统调用",
+        "进程文件管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 553,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-30",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "30",
+      "tags": [
+        "处理机调度算法",
+        "时间片轮转"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 554,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-31",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "31",
+      "tags": [
+        "中断IO"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 555,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-32",
+      "subject": "操作系统",
+      "year": "2024",
+      "number": "32",
+      "tags": [
+        "磁盘调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 556,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-23",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "23",
+      "tags": [
+        "虚拟页式管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 557,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-24",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "24",
+      "tags": [
+        "操作系统概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 558,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-25",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "25",
+      "tags": [
+        "处理机调度算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 559,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-26",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "26",
+      "tags": [
+        "页面置换算法",
+        "LRU"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 560,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-27",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "27",
+      "tags": [
+        "虚拟页式管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 561,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-28",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "28",
+      "tags": [
+        "虚拟文件系统"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 562,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-29",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "29",
+      "tags": [
+        "进程文件管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 563,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-30",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "30",
+      "tags": [
+        "内存映射文件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 564,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-31",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "31",
+      "tags": [
+        "外存空间管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 565,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-32",
+      "subject": "操作系统",
+      "year": "2025",
+      "number": "32",
+      "tags": [
+        "磁盘概念"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 566,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-23",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "23",
+      "tags": [
+        "操作系统基础-程序运行环境"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 567,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-24",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "24",
+      "tags": [
+        "内存管理-虚拟内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 568,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-25",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "25",
+      "tags": [
+        "进程管理-进程与线程"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 569,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-26",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "26",
+      "tags": [
+        "进程管理-同步与互斥"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 570,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-27",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "27",
+      "tags": [
+        "进程管理-同步与互斥"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 571,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-28",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "28",
+      "tags": [
+        "内存管理-虚拟内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 572,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-29",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "29",
+      "tags": [
+        "内存管理-虚拟内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 573,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-30",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "30",
+      "tags": [
+        "内存管理-虚拟内存管理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 574,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-31",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "31",
+      "tags": [
+        "输入/输出（I/O）管理-I/O管理基础"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 575,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-32",
+      "subject": "操作系统",
+      "year": "2026",
+      "number": "32",
+      "tags": [
+        "输入/输出（I/O）管理-设备独立软件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 576,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-33",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 577,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-34",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "34",
+      "tags": [
+        "调制方法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 578,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-35",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "35",
+      "tags": [
+        "ARQ协议"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 579,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-36",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "36",
+      "tags": [
+        "交换机",
+        "协议数据单元"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 580,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-37",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "37",
+      "tags": [
+        "CSMA/CD"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 581,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-38",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "38",
+      "tags": [
+        "TCP滑动窗口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 582,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-39",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "39",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 583,
+      "source_id": "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-40",
+      "subject": "计算机网络",
+      "year": "2009",
+      "number": "40",
+      "tags": [
+        "FTP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 584,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-33",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 585,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-34",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "34",
+      "tags": [
+        "交换方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 586,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-35",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "35",
+      "tags": [
+        "路由协议"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 587,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-36",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "36",
+      "tags": [
+        "ICMP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 588,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-37",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "37",
+      "tags": [
+        "子网划分"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 589,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-38",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "38",
+      "tags": [
+        "网络设备"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 590,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-39",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "39",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 591,
+      "source_id": "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-40",
+      "subject": "计算机网络",
+      "year": "2010",
+      "number": "40",
+      "tags": [
+        "DNS"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 592,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-33",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "33",
+      "tags": [
+        "TCP/IP模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 593,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-34",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "34",
+      "tags": [
+        "调制方法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 594,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-35",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "35",
+      "tags": [
+        "ARQ协议"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 595,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-36",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "36",
+      "tags": [
+        "介质访问控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 596,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-37",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "37",
+      "tags": [
+        "子网聚合"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 597,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-38",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "38",
+      "tags": [
+        "子网划分"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 598,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-39",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "39",
+      "tags": [
+        "TCP三次握手"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 599,
+      "source_id": "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-40",
+      "subject": "计算机网络",
+      "year": "2011",
+      "number": "40",
+      "tags": [
+        "TCP滑动窗口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 600,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-33",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "33",
+      "tags": [
+        "TCP/IP模型",
+        "ICMP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 601,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-34",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "34",
+      "tags": [
+        "物理层接口特性"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 602,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-35",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "35",
+      "tags": [
+        "以太网"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 603,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-36",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "36",
+      "tags": [
+        "ARQ协议",
+        "信道利用率"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 604,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-37",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "37",
+      "tags": [
+        "路由器"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 605,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-38",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "38",
+      "tags": [
+        "ARP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 606,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-39",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "39",
+      "tags": [
+        "网络号和主机号"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 607,
+      "source_id": "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-40",
+      "subject": "计算机网络",
+      "year": "2012",
+      "number": "40",
+      "tags": [
+        "电子邮件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 608,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-33",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 609,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-34",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "34",
+      "tags": [
+        "传输介质"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 610,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-35",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "35",
+      "tags": [
+        "交换方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 611,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-36",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "36",
+      "tags": [
+        "介质访问控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 612,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-37",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "37",
+      "tags": [
+        "HDLC"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 613,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-38",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "38",
+      "tags": [
+        "交换方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 614,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-39",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "39",
+      "tags": [
+        "TCP滑动窗口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 615,
+      "source_id": "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-40",
+      "subject": "计算机网络",
+      "year": "2013",
+      "number": "40",
+      "tags": [
+        "电子邮件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 616,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-33",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 617,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-34",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "34",
+      "tags": [
+        "交换机"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 618,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-35",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "35",
+      "tags": [
+        "香农定理",
+        "通信指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 619,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-36",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "36",
+      "tags": [
+        "ARQ协议",
+        "信道利用率"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 620,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-37",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "37",
+      "tags": [
+        "CDMA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 621,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-38",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "38",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 622,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-39",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "39",
+      "tags": [
+        "UDP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 623,
+      "source_id": "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-40",
+      "subject": "计算机网络",
+      "year": "2014",
+      "number": "40",
+      "tags": [
+        "HTTP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 624,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-33",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "33",
+      "tags": [
+        "电子邮件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 625,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-34",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "34",
+      "tags": [
+        "编码方法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 626,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-35",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "35",
+      "tags": [
+        "信道利用率"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 627,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-36",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "36",
+      "tags": [
+        "CSMA/CD"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 628,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-37",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "37",
+      "tags": [
+        "交换机"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 629,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-38",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "38",
+      "tags": [
+        "路由器",
+        "最长前缀匹配"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 630,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-39",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "39",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 631,
+      "source_id": "quiz-choice-d736ceba4450e5c426d567aa676fbc50-40",
+      "subject": "计算机网络",
+      "year": "2015",
+      "number": "40",
+      "tags": [
+        "HTTP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 632,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-33",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "33",
+      "tags": [
+        "OSI模型",
+        "网络设备"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 633,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-34",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "34",
+      "tags": [
+        "香农定理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 634,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-35",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "35",
+      "tags": [
+        "网络设备"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 635,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-36",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "36",
+      "tags": [
+        "CSMA/CD限制条件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 636,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-37",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "37",
+      "tags": [
+        "路由算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 637,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-38",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "38",
+      "tags": [
+        "网络号和主机号"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 638,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-39",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "39",
+      "tags": [
+        "子网划分"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 639,
+      "source_id": "quiz-choice-9082d585a8282746e9179d4659a69b3e-40",
+      "subject": "计算机网络",
+      "year": "2016",
+      "number": "40",
+      "tags": [
+        "DNS"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 640,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-33",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 641,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-34",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "34",
+      "tags": [
+        "奈奎斯特定理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 642,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-35",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "35",
+      "tags": [
+        "CSMA/CA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 643,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-36",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "36",
+      "tags": [
+        "网络号和主机号"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 644,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-37",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "37",
+      "tags": [
+        "路由协议"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 645,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-38",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "38",
+      "tags": [
+        "网络号和主机号"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 646,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-39",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "39",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 647,
+      "source_id": "quiz-choice-11ad23b1ab44c79ea6902937af161a57-40",
+      "subject": "计算机网络",
+      "year": "2017",
+      "number": "40",
+      "tags": [
+        "FTP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 648,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-33",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "33",
+      "tags": [
+        "网络协议"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 649,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-34",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "34",
+      "tags": [
+        "物理层接口特性"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 650,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-35",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "35",
+      "tags": [
+        "CSMA/CA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 651,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-36",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "36",
+      "tags": [
+        "ARQ协议",
+        "信道利用率"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 652,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-37",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "37",
+      "tags": [
+        "MAC地址"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 653,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-38",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "38",
+      "tags": [
+        "子网聚合"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 654,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-39",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "39",
+      "tags": [
+        "UDP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 655,
+      "source_id": "quiz-choice-0268fa75ca578826e141aec055683789-40",
+      "subject": "计算机网络",
+      "year": "2018",
+      "number": "40",
+      "tags": [
+        "电子邮件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 656,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-33",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 657,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-34",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "34",
+      "tags": [
+        "传输介质"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 658,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-35",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "35",
+      "tags": [
+        "ARQ协议",
+        "窗口大小限制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 659,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-36",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "36",
+      "tags": [
+        "CSMA/CD限制条件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 660,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-37",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "37",
+      "tags": [
+        "子网划分"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 661,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-38",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "38",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 662,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-39",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "39",
+      "tags": [
+        "TCP三次握手"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 663,
+      "source_id": "quiz-choice-a90856f7c3a7c3728d448412f95acca7-40",
+      "subject": "计算机网络",
+      "year": "2019",
+      "number": "40",
+      "tags": [
+        "网络应用模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 664,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-33",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "33",
+      "tags": [
+        "网络协议要素"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 665,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-34",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "34",
+      "tags": [
+        "数据报和虚电路"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 666,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-35",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "35",
+      "tags": [
+        "网络设备"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 667,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-36",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "36",
+      "tags": [
+        "ARQ协议",
+        "信道利用率"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 668,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-37",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "37",
+      "tags": [
+        "CSMA/CA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 669,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-38",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "38",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 670,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-39",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "39",
+      "tags": [
+        "TCP三次握手",
+        "TCP四次挥手"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 671,
+      "source_id": "quiz-choice-706a877f918f2279c49477e522bd5ec2-40",
+      "subject": "计算机网络",
+      "year": "2020",
+      "number": "40",
+      "tags": [
+        "DNS"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 672,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-33",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 673,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-34",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "34",
+      "tags": [
+        "编码方法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 674,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-35",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "35",
+      "tags": [
+        "子网划分"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 675,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-36",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "36",
+      "tags": [
+        "IP数据报分片"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 676,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-37",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "37",
+      "tags": [
+        "距离向量算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 677,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-38",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "38",
+      "tags": [
+        "TCP四次挥手"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 678,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-39",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "39",
+      "tags": [
+        "TCP首部",
+        "UDP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 679,
+      "source_id": "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-40",
+      "subject": "计算机网络",
+      "year": "2021",
+      "number": "40",
+      "tags": [
+        "TCP滑动窗口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 680,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-33",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "33",
+      "tags": [
+        "OSI模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 681,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-34",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "34",
+      "tags": [
+        "奈奎斯特定理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 682,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-35",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "35",
+      "tags": [
+        "网络号和主机号"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 683,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-36",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "36",
+      "tags": [
+        "路由表"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 684,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-37",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "37",
+      "tags": [
+        "软件定义网络"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 685,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-38",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "38",
+      "tags": [
+        "TCP拥塞控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 686,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-39",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "39",
+      "tags": [
+        "TCP四次挥手"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 687,
+      "source_id": "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-40",
+      "subject": "计算机网络",
+      "year": "2022",
+      "number": "40",
+      "tags": [
+        "HTTP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 688,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-33",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "33",
+      "tags": [
+        "通信指标"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 689,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-34",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "34",
+      "tags": [
+        "奈奎斯特定理"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 690,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-35",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "35",
+      "tags": [
+        "ARQ协议",
+        "信道利用率"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 691,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-36",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "36",
+      "tags": [
+        "传输介质",
+        "CSMA/CD"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 692,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-37",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "37",
+      "tags": [
+        "差错控制",
+        "循环冗余码"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 693,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-38",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "38",
+      "tags": [
+        "NAT"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 694,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-39",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "39",
+      "tags": [
+        "网络号和主机号"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 695,
+      "source_id": "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-40",
+      "subject": "计算机网络",
+      "year": "2023",
+      "number": "40",
+      "tags": [
+        "IPv6"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 696,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-33",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "33",
+      "tags": [
+        "交换方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 697,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-34",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "34",
+      "tags": [
+        "调制方法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 698,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-35",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "35",
+      "tags": [
+        "交换机",
+        "VLAN",
+        "ARP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 699,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-36",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "36",
+      "tags": [
+        "CSMA/CA"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 700,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-37",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "37",
+      "tags": [
+        "ARQ协议"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 701,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-38",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "38",
+      "tags": [
+        "TCP三次握手",
+        "TCP四次挥手"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 702,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-39",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "39",
+      "tags": [
+        "UDP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 703,
+      "source_id": "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-40",
+      "subject": "计算机网络",
+      "year": "2024",
+      "number": "40",
+      "tags": [
+        "HTTP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 704,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-33",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "33",
+      "tags": [
+        "交换方式"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 705,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-34",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "34",
+      "tags": [
+        "差错控制",
+        "海明距离"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 706,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-35",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "35",
+      "tags": [
+        "传输介质",
+        "CSMA/CD"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 707,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-36",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "36",
+      "tags": [
+        "DHCP"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 708,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-37",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "37",
+      "tags": [
+        "NAT"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 709,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-38",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "38",
+      "tags": [
+        "TCP滑动窗口"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 710,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-39",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "39",
+      "tags": [
+        "网络应用模型"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 711,
+      "source_id": "quiz-choice-26064e1bbee7917065b5b2055661cd96-40",
+      "subject": "计算机网络",
+      "year": "2025",
+      "number": "40",
+      "tags": [
+        "电子邮件"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 712,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-33",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "33",
+      "tags": [
+        "计算机网络概述-计算机网络体系结构"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 713,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-34",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "34",
+      "tags": [
+        "物理层-通信基础"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 714,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-35",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "35",
+      "tags": [
+        "数据链路层-介质访问控制"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 715,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-36",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "36",
+      "tags": [
+        "数据链路层-局域网"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 716,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-37",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "37",
+      "tags": [
+        "网络层-路由算法"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 717,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-38",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "38",
+      "tags": [
+        "网络层-路由协议"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 718,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-39",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "39",
+      "tags": [
+        "网络层-IPv4"
+      ],
+      "section": "选择题"
+    },
+    {
+      "seq_id": 719,
+      "source_id": "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-40",
+      "subject": "计算机网络",
+      "year": "2026",
+      "number": "40",
+      "tags": [
+        "应用层-万维网（WWW）"
+      ],
+      "section": "选择题"
+    }
+  ]
+}

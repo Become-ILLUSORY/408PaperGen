@@ -1,0 +1,17 @@
+# 本地私有配置（API地址/密钥/模型）
+config/settings.local.json
+
+# 本地工具与本地文档，不随仓库分发
+src/scraper.py
+CLAUDE.md
+
+# 原始资料（非项目运行所需）
+resources/
+
+# 生成产物
+generated/
+output/
+
+# Python
+__pycache__/
+*.pyc

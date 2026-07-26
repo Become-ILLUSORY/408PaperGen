@@ -1,0 +1,20 @@
+{
+  "api_base": "",
+  "api_key": "",
+  "model": "",
+  "max_tokens": 16384,
+  "request_timeout": 120,
+  "max_concurrent": 3,
+  "batch_size": 3,
+  "paper": {
+    "total_questions": 40,
+    "total_score": 150,
+    "duration_minutes": 180,
+    "subjects": [
+      {"name": "数据结构", "score": 45, "range": [1, 11]},
+      {"name": "计算机组成原理", "score": 45, "range": [12, 22]},
+      {"name": "操作系统", "score": 35, "range": [23, 32]},
+      {"name": "计算机网络", "score": 25, "range": [33, 40]}
+    ]
+  }
+}

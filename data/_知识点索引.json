@@ -1,0 +1,2213 @@
+{
+  "subjects": {
+    "数据结构": {
+      "tag_count": 65,
+      "by_tag": {
+        "排序算法": {
+          "count": 23,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-10",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-10",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-11",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-10",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-10",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-11",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-11",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-10",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-11",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-9",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-11",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-10",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-11",
+            "quiz-choice-0268fa75ca578826e141aec055683789-10",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-7",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-10",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-11",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-10",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-11",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-10",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-11",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-10",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-11"
+          ]
+        },
+        "B树": {
+          "count": 10,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-8",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-9",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-10",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-9",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-10",
+            "quiz-choice-0268fa75ca578826e141aec055683789-8",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-10",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-8",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-7",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-8"
+          ]
+        },
+        "入栈出栈序列": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-2",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-1",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-2",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-2",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-2",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-2",
+            "quiz-choice-0268fa75ca578826e141aec055683789-2",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-2",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-2"
+          ]
+        },
+        "二叉树遍历": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-3",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-5",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-3",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-4",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-5",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-4",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-3",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-5",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-3"
+          ]
+        },
+        "复杂度分析": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-1",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-1",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-1",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-1",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-7",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-1",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-1",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-1",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-1"
+          ]
+        },
+        "哈夫曼树": {
+          "count": 8,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-6",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-3",
+            "quiz-choice-0268fa75ca578826e141aec055683789-5",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-3",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-5",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-5",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-4",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-5"
+          ]
+        },
+        "平衡二叉树": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-4",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-4",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-4",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-3",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-4",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-4",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-6"
+          ]
+        },
+        "堆的概念": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-9",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-11",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-10",
+            "quiz-choice-0268fa75ca578826e141aec055683789-11",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-9",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-11",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-9"
+          ]
+        },
+        "散列表": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-9",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-8",
+            "quiz-choice-0268fa75ca578826e141aec055683789-9",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-8",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-9",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-9",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-9"
+          ]
+        },
+        "图的概念": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-7",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-7",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-8",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-7",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-6",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-6"
+          ]
+        },
+        "拓扑排序": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-8",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-6",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-7",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-7",
+            "quiz-choice-0268fa75ca578826e141aec055683789-7",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-7"
+          ]
+        },
+        "数组查找": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-9",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-7",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-9",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-8",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-5",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-7"
+          ]
+        },
+        "二叉排序树": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-7",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-6",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-8",
+            "quiz-choice-0268fa75ca578826e141aec055683789-6",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-5",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-7"
+          ]
+        },
+        "队列": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-2",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-3",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-3",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-3",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-2"
+          ]
+        },
+        "树的概念": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-5",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-6",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-4",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-9",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-4"
+          ]
+        },
+        "图的遍历": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-5",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-8",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-5",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-6",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-6"
+          ]
+        },
+        "链表": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-1",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-2",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-1",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-2",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-1"
+          ]
+        },
+        "特殊矩阵": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-4",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-3",
+            "quiz-choice-0268fa75ca578826e141aec055683789-3",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-1",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-3"
+          ]
+        },
+        "二叉树和森林的转换": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-6",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-5",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-4",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-4"
+          ]
+        },
+        "最小生成树": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-8",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-6",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-7",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-6"
+          ]
+        },
+        "关键路径": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-9",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-5",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-8",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-7"
+          ]
+        },
+        "线索二叉树": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-3",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-5",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-4"
+          ]
+        },
+        "中缀转后缀": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-2",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-2",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-2"
+          ]
+        },
+        "最短路径": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-7",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-8",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-8"
+          ]
+        },
+        "希尔排序": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-10",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-11",
+            "quiz-choice-0268fa75ca578826e141aec055683789-10"
+          ]
+        },
+        "栈": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-1",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-2",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-2"
+          ]
+        },
+        "KMP算法": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-8",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-9",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-6"
+          ]
+        },
+        "归并排序": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-10",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-10",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-10"
+          ]
+        },
+        "平均查找长度": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-0268fa75ca578826e141aec055683789-9",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-8",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-9"
+          ]
+        },
+        "完全二叉树": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-5",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-4"
+          ]
+        },
+        "快速排序": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-11",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-8"
+          ]
+        },
+        "基数排序": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-9",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-10"
+          ]
+        },
+        "B+树": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-10",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-9"
+          ]
+        },
+        "外部排序": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-11",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-11"
+          ]
+        },
+        "插入排序": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-10",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-11"
+          ]
+        },
+        "二叉树存储": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-3",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-3"
+          ]
+        },
+        "二叉树构建": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-4",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-4"
+          ]
+        },
+        "线性表-线性表的实现": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-1",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-2"
+          ]
+        },
+        "树和二叉树-树和二叉树的应用": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-5",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-8"
+          ]
+        },
+        "缓冲区": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-1"
+          ]
+        },
+        "带权路径长度": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-4"
+          ]
+        },
+        "邻接矩阵": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-7"
+          ]
+        },
+        "前缀编码": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-6"
+          ]
+        },
+        "卡特兰数": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-2"
+          ]
+        },
+        "三对角矩阵": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-4"
+          ]
+        },
+        "森林的概念": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-5"
+          ]
+        },
+        "邻接表": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-7"
+          ]
+        },
+        "哈夫曼编码": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-6"
+          ]
+        },
+        "后序表达式求值": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0268fa75ca578826e141aec055683789-1"
+          ]
+        },
+        "满二叉树": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0268fa75ca578826e141aec055683789-4"
+          ]
+        },
+        "树和二叉树的转换": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-2"
+          ]
+        },
+        "图表示树": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-6"
+          ]
+        },
+        "二维数组": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-3"
+          ]
+        },
+        "顺序表": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-1"
+          ]
+        },
+        "三元组表": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-3"
+          ]
+        },
+        "邻接多重表": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-4"
+          ]
+        },
+        "败者树": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-11"
+          ]
+        },
+        "分块查找": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-7"
+          ]
+        },
+        "树和二叉树-二叉树": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-3"
+          ]
+        },
+        "树和二叉树-树、森林": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-4"
+          ]
+        },
+        "图-图的存储及基本操作": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-6"
+          ]
+        },
+        "图-图的基本概念": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-7"
+          ]
+        },
+        "排序-直接插入排序": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-9"
+          ]
+        },
+        "排序-基数排序": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-10"
+          ]
+        },
+        "排序-外部排序": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-11"
+          ]
+        }
+      }
+    },
+    "计算机组成原理": {
+      "tag_count": 70,
+      "by_tag": {
+        "补码": {
+          "count": 13,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-12",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-13",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-14",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-13",
+            "quiz-choice-0268fa75ca578826e141aec055683789-13",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-13",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-13",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-13",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-13",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-13",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-12",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-14",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-14"
+          ]
+        },
+        "IEEE浮点数表示": {
+          "count": 11,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-13",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-14",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-13",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-14",
+            "quiz-choice-0268fa75ca578826e141aec055683789-14",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-13",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-14",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-14",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-14",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-14",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-13"
+          ]
+        },
+        "指令寻址方式": {
+          "count": 10,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-16",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-16",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-17",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-17",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-17",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-15",
+            "quiz-choice-0268fa75ca578826e141aec055683789-18",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-17",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-16",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-17"
+          ]
+        },
+        "中断IO": {
+          "count": 10,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-21",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-22",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-22",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-22",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-21",
+            "quiz-choice-0268fa75ca578826e141aec055683789-22",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-21",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-20",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-21",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-21"
+          ]
+        },
+        "异常和中断": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-22",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-22",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-22",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-22",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-20",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-21",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-21",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-21",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-22"
+          ]
+        },
+        "类型转换": {
+          "count": 8,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-12",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-14",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-13",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-13",
+            "quiz-choice-0268fa75ca578826e141aec055683789-13",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-13",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-12",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-12"
+          ]
+        },
+        "总线指标": {
+          "count": 8,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-20",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-19",
+            "quiz-choice-0268fa75ca578826e141aec055683789-21",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-19",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-19",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-20",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-20",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-20"
+          ]
+        },
+        "计算机性能指标": {
+          "count": 8,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-19",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-12",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-16",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-12",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-12",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-12",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-12",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-18"
+          ]
+        },
+        "计算机体系结构": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-11",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-12",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-12",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-12",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-12",
+            "quiz-choice-0268fa75ca578826e141aec055683789-12",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-12"
+          ]
+        },
+        "主存容量的扩展": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-15",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-15",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-15",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-18",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-13",
+            "quiz-choice-0268fa75ca578826e141aec055683789-17",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-15"
+          ]
+        },
+        "寄存器类型": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-18",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-17",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-18",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-18",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-17",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-12",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-17"
+          ]
+        },
+        "cache映射方式": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-14",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-17",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-15",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-15",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-16",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-16"
+          ]
+        },
+        "流水线概念": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-18",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-18",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-18",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-19",
+            "quiz-choice-0268fa75ca578826e141aec055683789-20",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-17"
+          ]
+        },
+        "cache概念": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-21",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-16",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-15",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-14",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-15"
+          ]
+        },
+        "存储器概念": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-16",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-22",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-14",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-15",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-17"
+          ]
+        },
+        "流水线冒险": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-19",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-19",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-18",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-19",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-19"
+          ]
+        },
+        "总线类型": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-20",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-20",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-19",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-20",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-20"
+          ]
+        },
+        "DMA": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-22",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-22",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-22",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-22",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-21"
+          ]
+        },
+        "大小端": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-14",
+            "quiz-choice-0268fa75ca578826e141aec055683789-15",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-15",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-14",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-15"
+          ]
+        },
+        "总线事务": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-19",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-20",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-21",
+            "quiz-choice-0268fa75ca578826e141aec055683789-22"
+          ]
+        },
+        "数据通路": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-19",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-18",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-18",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-19"
+          ]
+        },
+        "控制器种类": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-17",
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-19",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-18"
+          ]
+        },
+        "标志寄存器": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-17",
+            "quiz-choice-0268fa75ca578826e141aec055683789-19",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-16"
+          ]
+        },
+        "中断屏蔽": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-19",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-21",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-21"
+          ]
+        },
+        "总线概念": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-20",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-21",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-19"
+          ]
+        },
+        "多级中断": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-21",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-22",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-22"
+          ]
+        },
+        "数据对齐": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-15",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-14",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-15"
+          ]
+        },
+        "IO接口": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-21",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-21",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-20"
+          ]
+        },
+        "cache写策略": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-15",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-16",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-16"
+          ]
+        },
+        "TLB": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-16",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-15",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-17"
+          ]
+        },
+        "存储器层次结构-主存储器": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-16",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-17",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-15"
+          ]
+        },
+        "指令体系结构": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-12",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-18",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-16"
+          ]
+        },
+        "浮点数加减": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-13",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-14"
+          ]
+        },
+        "复杂和精简指令集": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-17",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-17"
+          ]
+        },
+        "指令执行指标": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-12",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-12"
+          ]
+        },
+        "IO方式": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-22",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-22"
+          ]
+        },
+        "磁盘性能指标": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-21",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-20"
+          ]
+        },
+        "微程序控制器": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-18",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-13"
+          ]
+        },
+        "数据的表示和运算-整数的表示和运算": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-13",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-13"
+          ]
+        },
+        "单周期处理器": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-20",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-17"
+          ]
+        },
+        "操作码扩展编码": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-16",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-19"
+          ]
+        },
+        "虚拟页式管理": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-16",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-18"
+          ]
+        },
+        "中央处理器（CPU）-指令执行过程": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-17",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-20"
+          ]
+        },
+        "中央处理器（CPU）-异常和中断机制": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-21",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-22"
+          ]
+        },
+        "访存过程": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-17"
+          ]
+        },
+        "无符号数": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-13"
+          ]
+        },
+        "存储器层次结构-外部存储器": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-16"
+          ]
+        },
+        "差错控制": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-15"
+          ]
+        },
+        "海明码": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-15"
+          ]
+        },
+        "地址翻译": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-16"
+          ]
+        },
+        "RAID": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-20"
+          ]
+        },
+        "总线定时": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-19"
+          ]
+        },
+        "超流水线": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-17"
+          ]
+        },
+        "逻辑移位": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0268fa75ca578826e141aec055683789-16"
+          ]
+        },
+        "缺页异常": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-14"
+          ]
+        },
+        "磁盘概念": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-20"
+          ]
+        },
+        "指令格式": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-16"
+          ]
+        },
+        "陷阱指令": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-18"
+          ]
+        },
+        "页表": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-15"
+          ]
+        },
+        "指令种类": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-19"
+          ]
+        },
+        "编译过程": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-20"
+          ]
+        },
+        "多处理机": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-22"
+          ]
+        },
+        "存储器地址": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-15"
+          ]
+        },
+        "运算电路": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-15"
+          ]
+        },
+        "控制器": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-19"
+          ]
+        },
+        "计算机系统概述-计算机系统层次结构": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-12"
+          ]
+        },
+        "数据的表示和运算-浮点数的表示和运算": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-14"
+          ]
+        },
+        "指令系统-指令系统的基本概念": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-16"
+          ]
+        },
+        "存储器层次结构-高速缓冲存储器（Cache）": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-18"
+          ]
+        },
+        "存储器层次结构-虚拟存储器": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-19"
+          ]
+        }
+      }
+    },
+    "操作系统": {
+      "tag_count": 72,
+      "by_tag": {
+        "处理机调度算法": {
+          "count": 15,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-24",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-26",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-23",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-29",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-23",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-23",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-27",
+            "quiz-choice-0268fa75ca578826e141aec055683789-24",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-27",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-26",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-25",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-25",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-29",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-30",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-25"
+          ]
+        },
+        "用户态和内核态": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-24",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-23",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-28",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-25",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-24",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-25",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-23",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-27",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-26"
+          ]
+        },
+        "进程状态": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-30",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-26",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-25",
+            "quiz-choice-0268fa75ca578826e141aec055683789-27",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-24",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-24",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-27",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-28",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-27"
+          ]
+        },
+        "操作系统概念": {
+          "count": 8,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-23",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-23",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-23",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-28",
+            "quiz-choice-0268fa75ca578826e141aec055683789-23",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-23",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-23",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-24"
+          ]
+        },
+        "inode": {
+          "count": 8,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-30",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-23",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-26",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-29",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-30",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-31",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-31",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-31"
+          ]
+        },
+        "中断IO": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-32",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-23",
+            "quiz-choice-0268fa75ca578826e141aec055683789-29",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-25",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-24",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-24",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-31"
+          ]
+        },
+        "系统调用": {
+          "count": 7,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-28",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-28",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-24",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-25",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-32",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-31",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-29"
+          ]
+        },
+        "银行家算法": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-27",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-27",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-32",
+            "quiz-choice-0268fa75ca578826e141aec055683789-26",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-27",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-26"
+          ]
+        },
+        "虚拟页式管理": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-25",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-28",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-30",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-25",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-23",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-27"
+          ]
+        },
+        "文件物理结构": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-28",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-30",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-24",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-29",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-24"
+          ]
+        },
+        "磁盘调度算法": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-29",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-32",
+            "quiz-choice-0268fa75ca578826e141aec055683789-30",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-26",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-32"
+          ]
+        },
+        "页表": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-29",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-28",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-32",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-31",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-29"
+          ]
+        },
+        "进程和线程": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-25",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-32",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-31",
+            "quiz-choice-0268fa75ca578826e141aec055683789-25",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-28"
+          ]
+        },
+        "缓冲区": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-31",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-27",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-28",
+            "quiz-choice-0268fa75ca578826e141aec055683789-31",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-30"
+          ]
+        },
+        "外存空间管理": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-27",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-26",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-26",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-26",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-31"
+          ]
+        },
+        "页面置换算法": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-27",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-26",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-28",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-30",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-26"
+          ]
+        },
+        "内存管理-虚拟内存管理": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-29",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-24",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-28",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-29",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-30"
+          ]
+        },
+        "进程概念": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-24",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-29",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-24",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-24"
+          ]
+        },
+        "动态分区分配": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-28",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-25",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-32",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-27"
+          ]
+        },
+        "IO软件层次": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-26",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-26",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-25",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-32"
+          ]
+        },
+        "缺页异常": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-28",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-28",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-30",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-29"
+          ]
+        },
+        "段式内存管理": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-27",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-28",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-28"
+          ]
+        },
+        "文件链接": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-31",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-31",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-30"
+          ]
+        },
+        "设备分配和回收": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-32",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-30",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-32"
+          ]
+        },
+        "寄存器类型": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-24",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-23",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-25"
+          ]
+        },
+        "死锁产生的必要条件": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-24",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-30",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-31"
+          ]
+        },
+        "位图法": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-27",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-31",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-25"
+          ]
+        },
+        "地址翻译": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-28",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-28",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-31"
+          ]
+        },
+        "时间片轮转": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-27",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-25",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-30"
+          ]
+        },
+        "进程文件管理": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-23",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-29",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-29"
+          ]
+        },
+        "信号量": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-25",
+            "quiz-choice-0268fa75ca578826e141aec055683789-32"
+          ]
+        },
+        "目录": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-31",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-31"
+          ]
+        },
+        "磁盘概念": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-32",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-32"
+          ]
+        },
+        "处理机调度概念": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-31",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-24"
+          ]
+        },
+        "LRU": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-27",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-26"
+          ]
+        },
+        "clock算法": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-26",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-28"
+          ]
+        },
+        "硬件互斥指令": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-27",
+            "quiz-choice-0268fa75ca578826e141aec055683789-32"
+          ]
+        },
+        "管程": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-32",
+            "quiz-choice-0268fa75ca578826e141aec055683789-28"
+          ]
+        },
+        "进程管理-同步与互斥": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-26",
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-27"
+          ]
+        },
+        "死锁概念": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-25"
+          ]
+        },
+        "内存管理方式": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-26"
+          ]
+        },
+        "软件互斥算法": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-27"
+          ]
+        },
+        "抖动": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-29"
+          ]
+        },
+        "程序的链接": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-30"
+          ]
+        },
+        "程序的装入": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-30"
+          ]
+        },
+        "CHS地址": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-25"
+          ]
+        },
+        "系统引导流程": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-29"
+          ]
+        },
+        "陷阱指令": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-25"
+          ]
+        },
+        "TLB": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-28"
+          ]
+        },
+        "Belady异常": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-30"
+          ]
+        },
+        "进程间通信": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-31"
+          ]
+        },
+        "死锁的处理方法": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-26"
+          ]
+        },
+        "页框分配和置换策略": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-30"
+          ]
+        },
+        "死锁预防": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-25"
+          ]
+        },
+        "临界资源": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-25"
+          ]
+        },
+        "驻留集": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-29"
+          ]
+        },
+        "进程的互斥": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-30"
+          ]
+        },
+        "SPOOLing": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-31"
+          ]
+        },
+        "磁盘格式化": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-29"
+          ]
+        },
+        "DMA": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-32"
+          ]
+        },
+        "条件变量": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0268fa75ca578826e141aec055683789-28"
+          ]
+        },
+        "用户级和内核级线程": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-23"
+          ]
+        },
+        "访存过程": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-28"
+          ]
+        },
+        "同步原则": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-32"
+          ]
+        },
+        "调度指标": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-29"
+          ]
+        },
+        "异常和中断": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-23"
+          ]
+        },
+        "虚拟文件系统": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-28"
+          ]
+        },
+        "内存映射文件": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-30"
+          ]
+        },
+        "操作系统基础-程序运行环境": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-23"
+          ]
+        },
+        "进程管理-进程与线程": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-25"
+          ]
+        },
+        "输入/输出（I/O）管理-I/O管理基础": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-31"
+          ]
+        },
+        "输入/输出（I/O）管理-设备独立软件": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-32"
+          ]
+        }
+      }
+    },
+    "计算机网络": {
+      "tag_count": 66,
+      "by_tag": {
+        "OSI模型": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-33",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-33",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-33",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-33",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-33",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-33",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-33",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-33",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-33"
+          ]
+        },
+        "ARQ协议": {
+          "count": 9,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-35",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-35",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-36",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-36",
+            "quiz-choice-0268fa75ca578826e141aec055683789-36",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-35",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-36",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-35",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-37"
+          ]
+        },
+        "TCP拥塞控制": {
+          "count": 8,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-39",
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-39",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-38",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-39",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-39",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-38",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-38",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-38"
+          ]
+        },
+        "信道利用率": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-36",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-36",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-35",
+            "quiz-choice-0268fa75ca578826e141aec055683789-36",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-36",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-35"
+          ]
+        },
+        "网络号和主机号": {
+          "count": 6,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-39",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-38",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-36",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-38",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-35",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-39"
+          ]
+        },
+        "TCP滑动窗口": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-38",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-40",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-39",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-40",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-38"
+          ]
+        },
+        "交换方式": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-34",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-35",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-38",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-33",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-33"
+          ]
+        },
+        "子网划分": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-37",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-38",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-39",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-37",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-35"
+          ]
+        },
+        "电子邮件": {
+          "count": 5,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-40",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-40",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-33",
+            "quiz-choice-0268fa75ca578826e141aec055683789-40",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-40"
+          ]
+        },
+        "交换机": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-36",
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-34",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-37",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-35"
+          ]
+        },
+        "CSMA/CD": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-37",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-36",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-36",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-35"
+          ]
+        },
+        "网络设备": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-38",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-33",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-35",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-35"
+          ]
+        },
+        "TCP三次握手": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-39",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-39",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-39",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-38"
+          ]
+        },
+        "传输介质": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-34",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-34",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-36",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-35"
+          ]
+        },
+        "UDP": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-39",
+            "quiz-choice-0268fa75ca578826e141aec055683789-39",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-39",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-39"
+          ]
+        },
+        "HTTP": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-40",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-40",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-40",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-40"
+          ]
+        },
+        "CSMA/CA": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-35",
+            "quiz-choice-0268fa75ca578826e141aec055683789-35",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-37",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-36"
+          ]
+        },
+        "TCP四次挥手": {
+          "count": 4,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-39",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-38",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-39",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-38"
+          ]
+        },
+        "调制方法": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-34",
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-34",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-34"
+          ]
+        },
+        "DNS": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-40",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-40",
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-40"
+          ]
+        },
+        "奈奎斯特定理": {
+          "count": 3,
+          "ids": [
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-34",
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-34",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-34"
+          ]
+        },
+        "FTP": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-40",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-40"
+          ]
+        },
+        "路由协议": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-35",
+            "quiz-choice-11ad23b1ab44c79ea6902937af161a57-37"
+          ]
+        },
+        "ICMP": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-09f53beb08b8525b2d2e7288b7c6c377-36",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-33"
+          ]
+        },
+        "TCP/IP模型": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-33",
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-33"
+          ]
+        },
+        "介质访问控制": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-36",
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-36"
+          ]
+        },
+        "子网聚合": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-a0e59e089547d62ebdefc8cb97a94d69-37",
+            "quiz-choice-0268fa75ca578826e141aec055683789-38"
+          ]
+        },
+        "物理层接口特性": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-34",
+            "quiz-choice-0268fa75ca578826e141aec055683789-34"
+          ]
+        },
+        "路由器": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-37",
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-38"
+          ]
+        },
+        "ARP": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-38",
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-35"
+          ]
+        },
+        "香农定理": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-35",
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-34"
+          ]
+        },
+        "通信指标": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-35",
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-33"
+          ]
+        },
+        "编码方法": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-34",
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-34"
+          ]
+        },
+        "CSMA/CD限制条件": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-36",
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-36"
+          ]
+        },
+        "网络应用模型": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-40",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-39"
+          ]
+        },
+        "差错控制": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-37",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-34"
+          ]
+        },
+        "NAT": {
+          "count": 2,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-38",
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-37"
+          ]
+        },
+        "协议数据单元": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-75c33eaeb564a07a6da318c1b4cc48c0-36"
+          ]
+        },
+        "以太网": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-20f87faa1a9b6166e0e5756c1ba55e4a-35"
+          ]
+        },
+        "HDLC": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d7cff2132e94e6809d9d775dc1abca3e-37"
+          ]
+        },
+        "CDMA": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0508454a12fe5c06d11fcc5c20a285f8-37"
+          ]
+        },
+        "最长前缀匹配": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-d736ceba4450e5c426d567aa676fbc50-38"
+          ]
+        },
+        "路由算法": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-9082d585a8282746e9179d4659a69b3e-37"
+          ]
+        },
+        "网络协议": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0268fa75ca578826e141aec055683789-33"
+          ]
+        },
+        "MAC地址": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-0268fa75ca578826e141aec055683789-37"
+          ]
+        },
+        "窗口大小限制": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-a90856f7c3a7c3728d448412f95acca7-35"
+          ]
+        },
+        "网络协议要素": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-33"
+          ]
+        },
+        "数据报和虚电路": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-706a877f918f2279c49477e522bd5ec2-34"
+          ]
+        },
+        "IP数据报分片": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-36"
+          ]
+        },
+        "距离向量算法": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-37"
+          ]
+        },
+        "TCP首部": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-8d8af598694e117b16c3c593bb0e7cb1-39"
+          ]
+        },
+        "路由表": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-36"
+          ]
+        },
+        "软件定义网络": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-02a795e944ec2b5bf17a7e8aa63e2ed9-37"
+          ]
+        },
+        "循环冗余码": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-37"
+          ]
+        },
+        "IPv6": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-41bfc9b289c4285c9c18105dc0d7b31d-40"
+          ]
+        },
+        "VLAN": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-6705eaa4c4f50f51dced1674d2f7c9d9-35"
+          ]
+        },
+        "海明距离": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-34"
+          ]
+        },
+        "DHCP": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-26064e1bbee7917065b5b2055661cd96-36"
+          ]
+        },
+        "计算机网络概述-计算机网络体系结构": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-33"
+          ]
+        },
+        "物理层-通信基础": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-34"
+          ]
+        },
+        "数据链路层-介质访问控制": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-35"
+          ]
+        },
+        "数据链路层-局域网": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-36"
+          ]
+        },
+        "网络层-路由算法": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-37"
+          ]
+        },
+        "网络层-路由协议": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-38"
+          ]
+        },
+        "网络层-IPv4": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-39"
+          ]
+        },
+        "应用层-万维网（WWW）": {
+          "count": 1,
+          "ids": [
+            "quiz-choice-b00d901b6ba8d7b0f3712a4c527065aa-40"
+          ]
+        }
+      }
+    }
+  }
+}

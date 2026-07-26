@@ -1,0 +1,93 @@
+name: 生成408模拟试卷
+
+on:
+  schedule:
+    # UTC 22:00 = 北京时间次日 06:00
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: '本次生成题数（留空 = 生成整卷全部40题）'
+        required: false
+        default: ''
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      # 在仓库 Settings → Secrets and variables → Actions 中配置（Secrets 优先）
+      API_BASE: ${{ secrets.API_BASE || vars.API_BASE }}
+      API_KEY: ${{ secrets.API_KEY || vars.API_KEY }}
+      MODEL: ${{ secrets.MODEL || vars.MODEL }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: |
+          pip install fpdf2
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-cjk
+
+      - name: 生成题目
+        # 出题完全基于仓库自带的 data/ 数据集，不访问任何外部数据源。
+        # 日志中的模型名等 Secret 值由 GitHub Actions 自动打码。
+        run: |
+          echo "::group::生成过程日志"
+          if [ -n "${{ inputs.count }}" ]; then
+            python3 src/generate.py --new --count "${{ inputs.count }}"
+          else
+            python3 src/generate.py --new --all
+          fi
+          echo "::endgroup::"
+
+      - name: 渲染PDF
+        run: |
+          paper=$(ls -t generated | head -1)
+          python3 src/build_paper.py "$paper"
+
+      - name: 产物摘要
+        run: |
+          python3 - <<'EOF'
+          import glob, json, os
+          paper = max(glob.glob("generated/*/questions.json"), key=os.path.getmtime)
+          d = json.load(open(paper))
+          ok = sum(1 for q in d["questions"] if q.get("_meta", {}).get("validated"))
+          fusion = sum(1 for q in d["questions"] if q.get("_meta", {}).get("fusion"))
+          print(f"生成进度: {d['generated']}/{d['total']} 题")
+          print(f"质检通过: {ok} 题 | 融合题: {fusion} 题 | 未验证(建议复核): {d['generated'] - ok} 题")
+          for f in sorted(glob.glob("output/*.pdf")):
+              print(f"PDF: {os.path.basename(f)} ({os.path.getsize(f)//1024} KB)")
+          EOF
+
+      - name: 上传试卷产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: 408-mock-paper-${{ github.run_number }}
+          path: |
+            output/*.pdf
+            generated/*/questions.json
+            generated/*/generate.log
+          retention-days: 30
+
+      - name: 邮件发送PDF
+        # 收件人/账号均为 Secret，Actions 日志自动打码，不会明文出现
+        if: ${{ secrets.MAIL_SERVER != '' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: ${{ secrets.MAIL_SERVER }}
+          server_port: ${{ secrets.MAIL_PORT || 465 }}
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_PASSWORD }}
+          from: 408模拟卷生成器 <${{ secrets.MAIL_USERNAME }}>
+          # 多个收件人用英文逗号分隔
+          to: ${{ secrets.MAIL_TO }}
+          subject: 408模拟试卷 ${{ github.run_number }} 号卷
+          body: |
+            今日份408模拟试卷已生成，试卷与答案解析见附件。
+            （GitHub Actions 自动发送）
+          attachments: output/*.pdf
