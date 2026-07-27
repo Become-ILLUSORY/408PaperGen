@@ -9,34 +9,62 @@
 - **双 AI 质检闭环**：生成时答案+解析同题产出；第二个 AI 调用按 10 个维度独立校验（独立解答验算、解析推导、选项均衡、对照模板真题查原创性、融合自然度等），不合格的整改意见回灌重出，最多 3 轮
 - **批量生成 + 断点续传**：默认每次只生成 3 题，反复运行自动续写同一张卷直到 40 题攒齐；并发生成但落盘始终按题号有序
 - **流式 AI 调用**：兼容思维链动辄上万字的推理模型——超时语义为"空闲无数据"而非总时长，思维链耗尽输出额度时自动翻倍 max_tokens 重试；日志记录每次调用的耗时/字数/结束原因
-- **纯标准库**：除 `fpdf2`（PDF 渲染）外零依赖
+- **数学公式渲染**：用 matplotlib mathtext 将 LaTeX 数学公式（分数、根号、求和、上下标、希腊字母等）渲染为高质量图片内联嵌入 PDF，不支持的公式自动 fallback 到可读 Unicode 文本
+- **中文字体自动提取**：从系统 NotoSansCJK TTC 字体集合中自动提取简体中文 SC 字体为独立 TTF，解决 fpdf2 硬编码 fontNumber=0（日语）导致的中文乱码问题
+
+## 执行逻辑
+
+```
+数据准备阶段（一次性，或题库更新后重跑）
+┌─────────────────────────────────────────────────────────┐
+│  scraper.py        抓取真题 HTML → data/<科目>.json       │
+│  tag_questions.py  AI 为无考点标签的题补标（幂等）          │
+│  analyze.py        分析历年考点分布 → data/_考点分布.json   │
+└─────────────────────────────────────────────────────────┘
+
+日常生成阶段（反复运行直到试卷完成）
+┌─────────────────────────────────────────────────────────┐
+│  generate.py                                            │
+│    1. choose_focus() 按历史章节分布选考点（均匀随机）       │
+│    2. 选风格模板（同考点真题）                             │
+│    3. call_ai() 生成题目+答案+解析                        │
+│    4. call_ai() 质检（9-10维度校验，不合格重来 ≤3轮）      │
+│    5. 落盘 questions.json（断点续传，按题号排序）           │
+│                                                         │
+│  build_paper.py                                         │
+│    1. 从 TTC 提取 SC 字体 → resources/fonts/*.ttf         │
+│    2. normalize_question() 保留 $...$ LaTeX 公式          │
+│    3. _write_mixed() 检测 LaTeX → matplotlib 渲染为 PNG   │
+│    4. cell()/image() 内联排版文本+公式图片                 │
+│    5. 输出 试卷.pdf + 答案解析.pdf（含母题溯源）            │
+└─────────────────────────────────────────────────────────┘
+```
 
 ## 目录结构
 
 ```
 src/
-  tag_questions.py  # AI 为无考点标注的真题补标（按 data/大纲.json 分类）
-  analyze.py        # 分析历年考点分布 → data/_考点分布.json、data/_tag章节映射.json
-  generate.py       # 批量生成模拟题（质检闭环、断点续传）
-  build_paper.py    # 排版渲染 试卷.pdf + 答案解析.pdf
-  test_paper.py     # 组卷冒烟测试（少量AI题+真题填满整卷并渲染）
+  scraper.py         # 真题抓取（本地专用，不入库）
+  tag_questions.py   # AI 为无考点标注的真题补标
+  analyze.py         # 分析历年考点分布 → data/_考点分布.json
+  generate.py        # 批量生成模拟题（质检闭环、断点续传）
+  build_paper.py     # 排版渲染 试卷.pdf + 答案解析.pdf
+  test_paper.py      # 组卷冒烟测试（少量AI题+真题填满整卷并渲染）
 config/
   settings.json         # 公共配置（试卷结构、并发、批量大小等）
   settings.local.json   # 本地私有配置（API地址/密钥/模型），不入库
-data/                   # 数据集：历年真题库、考纲、考点分布等（仓库自带）
+data/                   # 数据集：历年真题库、考纲、考点分布等
+resources/fonts/        # 从 TTC 提取的 SC 字体（自动生成，不入库）
 generated/              # 生成中/已完成的试卷 JSON 与日志（不入库）
 output/                 # 最终 PDF（不入库）
 ```
 
-> 出题**完全离线基于仓库自带的 `data/` 数据集**，不访问任何外部数据源；
-> 唯一的网络调用是 OpenAI 兼容的 AI 接口。
-
 ## 快速开始
 
-**依赖**：Python 3.10+、`fpdf2`、Noto Sans CJK 字体
+**依赖**：Python 3.10+、`fpdf2`、`fonttools`、`matplotlib`、Noto Sans CJK 字体
 
 ```bash
-pip install fpdf2
+pip install fpdf2 fonttools matplotlib
 # Arch: pacman -S noto-fonts-cjk    Debian/Ubuntu: apt install fonts-noto-cjk
 ```
 
@@ -46,7 +74,7 @@ pip install fpdf2
 # 方式一：环境变量（优先级最高）
 export API_BASE="https://your-provider.example/v1"
 export API_KEY="sk-..."
-export MODEL="your-model"
+MODEL="your-model"
 
 # 方式二：创建 config/settings.local.json（已被 .gitignore 忽略）
 {
