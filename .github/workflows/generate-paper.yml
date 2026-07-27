@@ -20,6 +20,8 @@ jobs:
       API_KEY: ${{ secrets.API_KEY || vars.API_KEY }}
       MODEL: ${{ secrets.MODEL || vars.MODEL }}
       MAIL_PORT: ${{ secrets.MAIL_PORT || vars.MAIL_PORT || 465 }}
+      # 关键：把邮件服务地址载入环境变量
+      MAIL_SERVER: ${{ secrets.MAIL_SERVER }}
     steps:
       - uses: actions/checkout@v4
 
@@ -75,8 +77,8 @@ jobs:
           retention-days: 30
 
       - name: 邮件发送PDF
-        # 收件人/账号均为 Secret，Actions 日志自动打码，不会明文出现
-        if: ${{ !empty(secrets.MAIL_SERVER) }}
+        # ⭐改动重点：if 只读取 env，不再直接访问 secrets
+        if: ${{ env.MAIL_SERVER != '' }}
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.MAIL_SERVER }}
