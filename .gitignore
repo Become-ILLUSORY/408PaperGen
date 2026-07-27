@@ -6,7 +6,7 @@ src/scraper.py
 CLAUDE.md
 
 # 原始资料（非项目运行所需）
-resources/
+resources/408考试大纲.pdf
 
 # 生成产物
 generated/
