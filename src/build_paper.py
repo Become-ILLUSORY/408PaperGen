@@ -21,7 +21,7 @@ OUTPUT_DIR = os.path.join(PROJECT_ROOT, "output")
 CONFIG_DIR = os.path.join(PROJECT_ROOT, "config")
 
 # ============================================================
-# 字体配置（在常见路径中查找 Noto Sans CJK）
+# 字体配置（从 TTC 中提取简体中文 SC 字体为独立 TTF）
 # ============================================================
 
 FONT_DIRS = [
@@ -30,8 +30,71 @@ FONT_DIRS = [
     "/usr/share/fonts/truetype/noto-cjk",
 ]
 
+# 从 TTC 集合中提取简体中文 (SC) 字体的索引
+_SC_INDEX = 2  # NotoSansCJK-Regular.ttc: 0=JP, 1=KR, 2=SC
+
+
+def _extract_sc_font(ttc_path: str, out_dir: str) -> str:
+    """从 TTC 文件提取简体中文 (SC) 字体为独立 TTF"""
+    from fontTools.ttLib import TTCollection
+    stem = os.path.splitext(os.path.basename(ttc_path))[0]
+    out_path = os.path.join(out_dir, f"{stem}-SC.ttf")
+    if os.path.exists(out_path):
+        return out_path
+    ttc = TTCollection(ttc_path)
+    font = ttc.fonts[_SC_INDEX]
+    font.save(out_path)
+    return out_path
+
+
+def _ensure_sc_fonts() -> str:
+    """确保提取后的 SC 字体目录存在，返回该目录路径"""
+    project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    sc_dir = os.path.join(project_root, "resources", "fonts")
+    os.makedirs(sc_dir, exist_ok=True)
+
+    # 检查是否已经提取过
+    needed = ["NotoSansCJK-Regular-SC.ttf", "NotoSansCJK-Bold-SC.ttf"]
+    if all(os.path.exists(os.path.join(sc_dir, f)) for f in needed):
+        return sc_dir
+
+    # 从系统 TTC 中提取
+    for ttc_name in ["NotoSansCJK-Regular.ttc", "NotoSansCJK-Bold.ttc"]:
+        for d in FONT_DIRS:
+            ttc_path = os.path.join(d, ttc_name)
+            if os.path.exists(ttc_path):
+                _extract_sc_font(ttc_path, sc_dir)
+                break
+        else:
+            # 找不到 TTC，尝试直接查找单体 TTF
+            pass
+
+    # Light 字重没有独立 Bold，从 Regular 提取即可
+    light_regular = os.path.join(sc_dir, "NotoSansCJK-Regular-SC.ttf")
+    light_out = os.path.join(sc_dir, "NotoSansCJK-Light-SC.ttf")
+    if not os.path.exists(light_out) and os.path.exists(light_regular):
+        shutil.copy2(light_regular, light_out)
+
+    return sc_dir
+
 
 def find_font(filename: str, fallback: str = "") -> str:
+    """查找字体文件：优先查找已提取的 SC TTF，再查系统 TTC"""
+    sc_dir = _ensure_sc_fonts()
+
+    # 先在提取目录中查找
+    for name in [filename, fallback] if fallback else [filename]:
+        # 替换为 SC 版本
+        sc_name = name.replace(".ttc", "-SC.ttf")
+        path = os.path.join(sc_dir, sc_name)
+        if os.path.exists(path):
+            return path
+        # 直接查找原文件名（可能是已提取的 TTF）
+        path = os.path.join(sc_dir, name)
+        if os.path.exists(path):
+            return path
+
+    # 回退到系统字体目录
     for name in [filename, fallback] if fallback else [filename]:
         for d in FONT_DIRS:
             path = os.path.join(d, name)
@@ -136,6 +199,81 @@ class ExamPDF(FPDF):
         self.cell(0, 10, f"  {name}（{score}分）", fill=True)
         self.ln(10)
 
+    def _write_mixed(self, text: str, font_size: int = 11, line_height: int = 7,
+                     align: str = "L", x0: float | None = None):
+        """
+        写入混合了文本和数学公式的段落。
+        用 matplotlib 渲染 LaTeX 公式为内联图片，其余用 cell/multi_cell 写文本。
+        """
+        segments = _split_text_and_math(text)
+        has_math = any(is_math for _, is_math in segments)
+
+        # 没有数学公式，直接用 multi_cell
+        if not has_math:
+            if x0 is not None:
+                self.set_x(x0)
+            self.multi_cell(0, line_height, text, align=align)
+            return
+
+        # 有数学公式：逐段处理
+        self.set_font("SC", "", font_size)
+        for content, is_math in segments:
+            if not content:
+                continue
+            if is_math:
+                # 尝试渲染为图片
+                img_data = render_math_image(content, fontsize=font_size + 2)
+                if img_data:
+                    from io import BytesIO
+                    buf = BytesIO(img_data)
+                    img_h = line_height + 2  # 图片高度 mm
+                    # 根据图片实际宽高比计算宽度
+                    from PIL import Image
+                    import io
+                    pil_img = Image.open(io.BytesIO(img_data))
+                    aspect = pil_img.width / pil_img.height
+                    img_w = img_h * aspect  # 按比例缩放
+
+                    # 检查行尾空间
+                    cur_x = self.get_x()
+                    if cur_x + img_w > self.w - self.r_margin:
+                        self.ln(line_height)
+                        if x0 is not None:
+                            self.set_x(x0)
+
+                    y_before = self.get_y()
+                    self.image(buf, x=self.get_x(), y=y_before, w=img_w, h=img_h)
+                    self.set_xy(self.get_x() + img_w, y_before)
+                else:
+                    # 渲染失败，fallback 到 Unicode 文本
+                    converted = strip_latex_math(f"${content}$")
+                    self.cell(self.get_string_width(converted) + 1, line_height, converted)
+            else:
+                # 纯文本段落：按行处理，保留换行
+                lines = content.split('\n')
+                for i, line in enumerate(lines):
+                    line = line.strip()
+                    if not line:
+                        continue
+                    # 检查行尾空间
+                    w = self.get_string_width(line)
+                    avail = self.w - self.r_margin - self.get_x()
+                    if w > avail and self.get_x() > (x0 or self.l_margin):
+                        self.ln(line_height)
+                        if x0 is not None:
+                            self.set_x(x0)
+                    if x0 is not None and self.get_x() < x0:
+                        self.set_x(x0)
+                    # 用实际文本宽度，不用 0（0 会占满整行）
+                    self.cell(w + 1, line_height, line)
+                    if i < len(lines) - 1:
+                        self.ln(line_height)
+                        if x0 is not None:
+                            self.set_x(x0)
+
+        # 结尾换行
+        self.ln(line_height)
+
     def add_question(self, q: dict, show_answer: bool = False):
         """添加一道题"""
         num = q["number"]
@@ -161,7 +299,8 @@ class ExamPDF(FPDF):
 
         # 写题干（可能多行；左对齐，避免两端对齐拉宽空格）
         self.set_font("SC", "", 11)
-        self.multi_cell(self.w - self.r_margin - num_end_x + 5, 7, stem, align="L")
+        self._write_mixed(stem, font_size=11, line_height=7,
+                          x0=num_end_x)
 
         # 知识点标签（灰色小字）
         if tags and not show_answer:
@@ -176,15 +315,18 @@ class ExamPDF(FPDF):
         for key in ["A", "B", "C", "D"]:
             opt = options.get(key, "")
             self.set_x(20)
+            prefix = f"{key}. "
             if show_answer and key == answer:
                 # 正确答案标红加粗
                 self.set_font("SC", "B", 11)
                 self.set_text_color(200, 0, 0)
-                self.multi_cell(0, 7, f"{key}. {opt}  ✓", align="L")
+                self._write_mixed(prefix + opt + "  ✓", font_size=11,
+                                  line_height=7, x0=20)
                 self.set_font("SC", "", 11)
                 self.set_text_color(0, 0, 0)
             else:
-                self.multi_cell(0, 7, f"{key}. {opt}", align="L")
+                self._write_mixed(prefix + opt, font_size=11,
+                                  line_height=7, x0=20)
 
         # 答案与解析（仅在答案卷显示）
         if show_answer:
@@ -222,11 +364,110 @@ class ExamPDF(FPDF):
                 self.set_x(x0)
                 self.set_font("SC", "", 9)
                 self.set_text_color(60, 60, 60)
-                self.multi_cell(self.w - self.r_margin - x0, 6, f"【解析】{explanation}", align="L")
+                self._write_mixed(f"【解析】{explanation}", font_size=9,
+                                  line_height=6, x0=x0)
 
             self.ln(5)
 
         self.ln(4)
+
+
+# ============================================================
+# 数学公式渲染（matplotlib mathtext）
+# ============================================================
+
+# matplotlib 能渲染的 LaTeX 子集：\frac, \sqrt, \sum, \int, \alpha, 上下标等
+# 不能渲染的：\begin{matrix} 环境、\text{}、\over 等复杂命令
+# 对于不支持的公式，fallback 到 Unicode 文本
+
+def _init_matplotlib():
+    """初始化 matplotlib（延迟导入，CI 可能没装）"""
+    try:
+        import matplotlib
+        matplotlib.use('Agg')
+        from matplotlib import rcParams
+        rcParams['mathtext.fontset'] = 'cm'  # Computer Modern，最接近 LaTeX
+        rcParams['axes.unicode_minus'] = False
+        return True
+    except ImportError:
+        return False
+
+_HAS_MATPLOTLIB = None  # 延迟检测
+
+
+def _can_render_math(latex: str) -> bool:
+    """检测 LaTeX 表达式是否能被 matplotlib mathtext 渲染"""
+    # 不支持的环境命令
+    if re.search(r'\\begin\{', latex) or re.search(r'\\end\{', latex):
+        return False
+    # 不支持 \text, \over, \displaystyle 等
+    if re.search(r'\\(?:text|over|displaystyle|style|frac.*frac.*frac)', latex):
+        return False
+    # 太长的表达式（超过80字符）渲染效果差
+    if len(latex) > 80:
+        return False
+    return True
+
+
+def render_math_image(latex: str, fontsize: int = 14, dpi: int = 150) -> bytes | None:
+    """
+    用 matplotlib 把 LaTeX 数学公式渲染为 PNG 图片，返回 bytes。
+    渲染失败返回 None。
+    """
+    global _HAS_MATPLOTLIB
+    if _HAS_MATPLOTLIB is None:
+        _HAS_MATPLOTLIB = _init_matplotlib()
+    if not _HAS_MATPLOTLIB:
+        return None
+    if not _can_render_math(latex):
+        return None
+
+    try:
+        import matplotlib
+        matplotlib.use('Agg')
+        import matplotlib.pyplot as plt
+        from io import BytesIO
+
+        # 预处理：去掉 $ 定界符
+        clean = latex.strip().strip('$')
+        if not clean:
+            return None
+
+        # 计算合适的图片尺寸
+        fig_w = max(1.0, len(clean) * 0.12)
+        fig, ax = plt.subplots(figsize=(fig_w, 0.5))
+        ax.text(0.5, 0.5, f'${clean}$', fontsize=fontsize,
+                ha='center', va='center', transform=ax.transAxes)
+        ax.axis('off')
+
+        buf = BytesIO()
+        fig.savefig(buf, format='png', dpi=dpi, bbox_inches='tight',
+                    transparent=True, pad_inches=0.03)
+        plt.close(fig)
+        return buf.getvalue()
+    except Exception:
+        return None
+
+
+def _split_text_and_math(text: str) -> list[tuple[str, bool]]:
+    """
+    把文本拆分为 [(内容, is_math), ...] 段落。
+    is_math=True 表示这是 LaTeX 数学公式。
+    """
+    segments = []
+    last_end = 0
+    # 匹配 $$...$$ 和 $...$
+    for m in re.finditer(r'\$\$(.*?)\$\$|\$(.*?)\$', text, re.DOTALL):
+        # 公式前的普通文本
+        if m.start() > last_end:
+            segments.append((text[last_end:m.start()], False))
+        formula = m.group(1) if m.group(1) is not None else m.group(2)
+        segments.append((formula, True))
+        last_end = m.end()
+    # 剩余文本
+    if last_end < len(text):
+        segments.append((text[last_end:], False))
+    return segments if segments else [(text, False)]
 
 
 # Noto Sans CJK 缺少上/下标数字字形，转写为 ^n / n 形式
@@ -462,12 +703,14 @@ def merge_soft_newlines(text: str) -> str:
 
 
 def normalize_question(q: dict) -> dict:
-    """返回清理过 LaTeX 标记、表格与换行的题目副本"""
+    """返回清理过表格与换行的题目副本（保留 $...$ 给 _write_mixed 渲染数学图片）"""
     q = dict(q)
+    # question_text 和 options 保留 $...$，由 _write_mixed 分段渲染
     q["question_text"] = merge_soft_newlines(
-        convert_md_tables(strip_latex_math(q.get("question_text", ""))))
-    q["options"] = {k: merge_soft_newlines(strip_latex_math(v))
+        convert_md_tables(q.get("question_text", "")))
+    q["options"] = {k: merge_soft_newlines(v)
                     for k, v in q.get("options", {}).items()}
+    # explanation 仍然 strip（太长，不适合逐公式渲染图片）
     q["explanation"] = convert_md_tables(strip_latex_math(q.get("explanation", "")))
     # explanation 里的硬换行哨兵直接还原为普通行
     q["explanation"] = q["explanation"].replace(_HARD_LINE, "")
