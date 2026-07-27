@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     env:
-      # 在仓库 Settings → Secrets and variables → Actions 中配置（Secrets 优先）
       API_BASE: ${{ secrets.API_BASE || vars.API_BASE }}
       API_KEY: ${{ secrets.API_KEY || vars.API_KEY }}
       MODEL: ${{ secrets.MODEL || vars.MODEL }}
+      MAIL_PORT: ${{ secrets.MAIL_PORT || vars.MAIL_PORT || 465 }}
     steps:
       - uses: actions/checkout@v4
 
@@ -76,11 +76,11 @@ jobs:
 
       - name: 邮件发送PDF
         # 收件人/账号均为 Secret，Actions 日志自动打码，不会明文出现
-        if: ${{ secrets.MAIL_SERVER != '' }}
+        if: ${{ !empty(secrets.MAIL_SERVER) }}
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: ${{ secrets.MAIL_SERVER }}
-          server_port: ${{ secrets.MAIL_PORT || 465 }}
+          server_port: ${{ env.MAIL_PORT }}
           username: ${{ secrets.MAIL_USERNAME }}
           password: ${{ secrets.MAIL_PASSWORD }}
           from: 408模拟卷生成器 <${{ secrets.MAIL_USERNAME }}>
